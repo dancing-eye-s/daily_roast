@@ -5,4 +5,6 @@ __pycache__/
 # Local source downloads and heavy raw crawl/OCR artifacts.
 downloads/
 archive/raw/
+archive/
+scripts/
 

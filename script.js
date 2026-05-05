@@ -1,11 +1,12 @@
 const COPY_READY_STATUSES = new Set(["verified", "collected"]);
-const awardArchive = Array.isArray(window.AD_ARCHIVE)
-  ? window.AD_ARCHIVE.filter((item) => COPY_READY_STATUSES.has(item.copyStatus))
-  : [];
-const copypediaArchive = Array.isArray(window.COPYPEDIA_ARCHIVE)
-  ? window.COPYPEDIA_ARCHIVE
-  : [];
-const archive = [...awardArchive, ...copypediaArchive];
+const copyArchive = Array.isArray(window.COPY_ARCHIVE) ? window.COPY_ARCHIVE : [];
+const archive = copyArchive.filter((item) => {
+  if (item.collection !== "award") {
+    return true;
+  }
+
+  return COPY_READY_STATUSES.has(item.copyStatus);
+});
 
 const capsules = [
   {
@@ -88,6 +89,40 @@ function setLinkState(item) {
   noteLink.classList.remove("is-disabled");
 }
 
+function escapePattern(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function isWordplayCopy(copy) {
+  return /MEGA|메가|알바몬으로 알바가|뭘로토닝|나랑드랑|감탄에 감탄|퍼울했죠|시원서커|다다다|🎵/.test(
+    copy,
+  );
+}
+
+function getDisplayCopy(item) {
+  const copy = item.copy.replace(/\s+/g, " ").trim();
+  const brand = (item.brand || "").replace(/\s+/g, " ").trim();
+
+  if (!brand || isWordplayCopy(copy)) {
+    return copy;
+  }
+
+  const aliases = [brand, brand.replace(/\s+/g, "")]
+    .map((alias) => alias.replace(/[()]/g, "").trim())
+    .filter((alias) => alias.length >= 3);
+
+  for (const alias of aliases) {
+    const suffixPattern = new RegExp(`[\\s,，.。:：-]*${escapePattern(alias)}$`, "i");
+    const cleaned = copy.replace(suffixPattern, "").trim();
+
+    if (cleaned !== copy && cleaned.replace(/\s+/g, "").length >= 4) {
+      return cleaned;
+    }
+  }
+
+  return copy;
+}
+
 function formatCopy(copy) {
   const normalized = copy.replace(/\s+/g, " ").trim();
 
@@ -132,8 +167,9 @@ function renderCopy(item, capsule) {
   }
 
   currentId = item.id;
-  copyText.textContent = formatCopy(item.copy);
-  copyText.classList.toggle("is-long", item.copy.length > 15);
+  const displayCopy = getDisplayCopy(item);
+  copyText.textContent = formatCopy(displayCopy);
+  copyText.classList.toggle("is-long", displayCopy.length > 15);
   copyMeta.textContent = [item.brand, item.campaign].filter(Boolean).join(" · ");
   setLinkState(item);
 }

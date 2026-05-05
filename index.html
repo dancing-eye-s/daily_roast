@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Daily Roast</title>
+    <meta
+      name="description"
+      content="대한민국 광고대상 수상작 메인 카피를 매일 커피처럼 따라 보는 모바일 전용 아카이브"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <p class="eyebrow">Daily Roast</p>
+        <h1>오늘의 카피는?</h1>
+        <p class="intro">
+          주전자를 기울여 오늘의 카피를 내려보세요.
+        </p>
+      </section>
+
+      <section class="stage">
+        <div class="cookie-area">
+          <button
+            class="coffee-pot"
+            id="fortune-cookie"
+            type="button"
+            aria-label="커피 주전자로 오늘의 광고 카피 내리기"
+            aria-controls="fortune-note"
+            aria-expanded="false"
+          >
+            <span class="coffee-shadow"></span>
+            <span class="pot-body"></span>
+            <span class="pot-lid"></span>
+            <span class="pot-handle"></span>
+            <span class="pot-spout"></span>
+            <span class="coffee-stream"></span>
+            <span class="coffee-cup"></span>
+            <span class="cup-coffee"></span>
+            <span class="steam steam-one"></span>
+            <span class="steam steam-two"></span>
+            <span class="steam steam-three"></span>
+            <span class="steam-copy" id="cookie-slip"></span>
+            <span class="steam-brand" id="steam-brand"></span>
+          </button>
+
+          <article class="fortune-note" id="fortune-note" aria-live="polite">
+            <p class="note-copy" id="note-copy">
+              주전자를 눌러 오늘의 광고 카피를 내려보세요.
+            </p>
+            <p class="note-meta" id="note-meta"></p>
+            <div class="note-actions">
+              <a
+                class="note-link is-disabled"
+                id="note-link"
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                aria-disabled="true"
+              >
+                더보기
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="archive-status">
+        <p class="status-title">아카이브 상태</p>
+        <p class="status-copy">
+          대한민국 광고대상 역대 수상작과 카피피디아의 '광고 카피 모음'이
+          수록되어 있습니다.
+        </p>
+        <p class="status-count" id="status-count"></p>
+      </section>
+    </main>
+
+    <script src="./data/archive.js"></script>
+    <script src="./data/copypedia.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

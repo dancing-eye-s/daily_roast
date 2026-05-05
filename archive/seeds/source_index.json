@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "id": "adco-2024-overview",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=579762",
+      "kind": "article",
+      "year": 2024,
+      "role": "overview"
+    },
+    {
+      "id": "adco-2023-overview",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=566621",
+      "kind": "article",
+      "year": 2023,
+      "role": "overview"
+    },
+    {
+      "id": "adco-2022-overview",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=558850",
+      "kind": "article",
+      "year": 2022,
+      "role": "overview"
+    },
+    {
+      "id": "madtimes-2021-overview",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=10586",
+      "kind": "article",
+      "year": 2021,
+      "role": "overview"
+    },
+    {
+      "id": "opad-2021-overview-mobile",
+      "url": "https://op.ad.co.kr/mobile/journal/column/info.mjsp?oid=&ukey=555841",
+      "kind": "article",
+      "year": 2021,
+      "role": "overview"
+    },
+    {
+      "id": "hankyung-2020-overview",
+      "url": "https://www.hankyung.com/article/202011163366Y",
+      "kind": "article",
+      "year": 2020,
+      "role": "overview"
+    },
+    {
+      "id": "opad-2019-overview",
+      "url": "https://op.ad.co.kr/journal/column/show.prt?ukey=537583",
+      "kind": "article",
+      "year": 2019,
+      "role": "overview"
+    },
+    {
+      "id": "wacf-2018-overview",
+      "url": "https://wacf.ad.co.kr/journal/column/show.do?oid=%40308976%7C2%7C4&ukey=527296",
+      "kind": "article",
+      "year": 2018,
+      "role": "overview"
+    },
+    {
+      "id": "wacf-2018-award-table-pdf",
+      "url": "https://thumb.ad.co.kr/article/54/13/ef/c0/a/527296.pdf",
+      "kind": "award-table-pdf",
+      "year": 2018,
+      "role": "award-table"
+    },
+    {
+      "id": "adco-2017-overview",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=503028",
+      "kind": "article",
+      "year": 2017,
+      "role": "overview"
+    },
+    {
+      "id": "mk-2016-forest-fever",
+      "url": "https://www.mk.co.kr/news/business/7589369",
+      "kind": "article",
+      "year": 2016,
+      "role": "winner-interview"
+    },
+    {
+      "id": "opad-2015-overview",
+      "url": "https://op.ad.co.kr/journal/column/show.prt?ukey=429652",
+      "kind": "article",
+      "year": 2015,
+      "role": "overview"
+    },
+    {
+      "id": "adco-2014-overview",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=349275",
+      "kind": "article",
+      "year": 2014,
+      "role": "overview"
+    },
+    {
+      "id": "adco-2014-award-table-xlsx",
+      "url": "https://thumb.ad.co.kr/article/54/11/38/5b/a/349275-4.xlsx",
+      "kind": "award-table-xlsx",
+      "year": 2014,
+      "role": "award-table"
+    },
+    {
+      "id": "opad-2013-overview",
+      "url": "https://op.ad.co.kr/journal/column/show.do?ukey=304091",
+      "kind": "article",
+      "year": 2013,
+      "role": "overview"
+    },
+    {
+      "id": "opad-2020-overview",
+      "url": "https://op.ad.co.kr/journal/column/show.do?ukey=543807",
+      "kind": "article",
+      "year": 2020,
+      "role": "overview"
+    },
+    {
+      "id": "opad-2024-social-grand-prize",
+      "url": "https://op.ad.co.kr/journal/column/show.do?ukey=579765",
+      "kind": "article",
+      "year": 2024,
+      "role": "winner-interview"
+    },
+    {
+      "id": "opad-2024-public-grand-prize",
+      "url": "https://op.ad.co.kr/journal/column/show.do?ukey=579755",
+      "kind": "article",
+      "year": 2024,
+      "role": "winner-interview"
+    },
+    {
+      "id": "adco-2024-print-grand-prize",
+      "url": "https://www.ad.co.kr/journal/column/show.do?oid=%40309768%7C1%7C21&ukey=579768",
+      "kind": "article",
+      "year": 2024,
+      "role": "winner-interview"
+    },
+    {
+      "id": "adco-2024-audio-grand-prize",
+      "url": "https://www.ad.co.kr/journal/column/show.do?ukey=579769",
+      "kind": "article",
+      "year": 2024,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2021-switzen-lighthouse",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=10946",
+      "kind": "article",
+      "year": 2021,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2021-rhythm-season2",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=10944",
+      "kind": "article",
+      "year": 2021,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2021-light-saver",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=10962",
+      "kind": "article",
+      "year": 2021,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2021-bespoke",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=10977",
+      "kind": "article",
+      "year": 2021,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2020-ssg",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=6646",
+      "kind": "article",
+      "year": 2020,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2020-hope-tape",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=6683",
+      "kind": "article",
+      "year": 2020,
+      "role": "winner-interview"
+    },
+    {
+      "id": "madtimes-2020-labor-envelope",
+      "url": "https://www.madtimes.org/news/articleView.html?idxno=6711",
+      "kind": "article",
+      "year": 2020,
+      "role": "winner-interview"
+    },
+    {
+      "id": "tvcf-switzen-family-meal",
+      "url": "https://www.tvcf.co.kr/play/953559",
+      "kind": "tvcf-page",
+      "year": 2024,
+      "role": "original"
+    }
+  ]
+}

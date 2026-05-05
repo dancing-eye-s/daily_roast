@@ -1,0 +1,351 @@
+{
+  "source": {
+    "id": "adco-2017-overview",
+    "url": "https://www.ad.co.kr/journal/column/show.do?ukey=503028",
+    "kind": "article",
+    "year": 2017,
+    "role": "overview"
+  },
+  "htmlPath": "archive/raw/adco-2017-overview.do",
+  "imageCount": 18,
+  "results": [
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/001.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/001.processed.png",
+      "text": "31stKOREA\nADVERTISINGCONGRESS\n20.17\n2017\nIK",
+      "lines": [
+        {
+          "text": "31stKOREA",
+          "confidence": 0.8201011955738068
+        },
+        {
+          "text": "ADVERTISINGCONGRESS",
+          "confidence": 0.8968548834323883
+        },
+        {
+          "text": "20.17",
+          "confidence": 0.762695719798406
+        },
+        {
+          "text": "2017",
+          "confidence": 0.5109951674938202
+        },
+        {
+          "text": "IK",
+          "confidence": 0.5011363685131073
+        }
+      ],
+      "elapsed": [
+        0.19576716423034668,
+        0.009245872497558594,
+        0.27297186851501465
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/002.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/002.processed.png",
+      "text": "2017\nKorea Advertising Congress",
+      "lines": [
+        {
+          "text": "2017",
+          "confidence": 0.6277577042579651
+        },
+        {
+          "text": "Korea Advertising Congress",
+          "confidence": 0.8512591520945231
+        }
+      ],
+      "elapsed": [
+        0.15831995010375977,
+        0.0025458335876464844,
+        0.03840208053588867
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/003.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/003.processed.png",
+      "text": "jdea\nldea\nGealisef\nOperingPerfomanca",
+      "lines": [
+        {
+          "text": "jdea",
+          "confidence": 0.6609461307525635
+        },
+        {
+          "text": "ldea",
+          "confidence": 0.5805439889431
+        },
+        {
+          "text": "Gealisef",
+          "confidence": 0.6687255965338813
+        },
+        {
+          "text": "OperingPerfomanca",
+          "confidence": 0.8168951330913438
+        }
+      ],
+      "elapsed": [
+        0.23430085182189941,
+        0.003930091857910156,
+        0.1038053035736084
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/004.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/004.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/005.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/005.processed.png",
+      "text": "ADKORY\nKoreaAdvertisingCongress",
+      "lines": [
+        {
+          "text": "ADKORY",
+          "confidence": 0.6058440506458282
+        },
+        {
+          "text": "KoreaAdvertisingCongress",
+          "confidence": 0.909516122341156
+        }
+      ],
+      "elapsed": [
+        0.11979413032531738,
+        0.0034842491149902344,
+        0.12637996673583984
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/006.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/006.processed.png",
+      "text": "2017",
+      "lines": [
+        {
+          "text": "2017",
+          "confidence": 0.5508207321166992
+        }
+      ],
+      "elapsed": [
+        0.13707709312438965,
+        0.0026350021362304688,
+        0.08398008346557617
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/007.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/007.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/008.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/008.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/009.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/009.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/010.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/010.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/011.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/011.processed.png",
+      "text": "2017",
+      "lines": [
+        {
+          "text": "2017",
+          "confidence": 0.5432568311691284
+        }
+      ],
+      "elapsed": [
+        0.12737107276916504,
+        0.0018320083618164062,
+        0.05831313133239746
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/012.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/012.processed.png",
+      "text": "ISINGAWARDS\n2017号\nKoreaAdvertisingAwards",
+      "lines": [
+        {
+          "text": "ISINGAWARDS",
+          "confidence": 0.8725849439700445
+        },
+        {
+          "text": "2017号",
+          "confidence": 0.613829642534256
+        },
+        {
+          "text": "KoreaAdvertisingAwards",
+          "confidence": 0.9181890254435332
+        }
+      ],
+      "elapsed": [
+        0.11750316619873047,
+        0.002706289291381836,
+        0.326458215713501
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/013.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/013.processed.png",
+      "text": "2017\n2017\nKOAADERTISGAW\nPDS\nKOREDVEFSINGARDS\nKOREAADVERTIIGAVRDS\nKOREAADLERTISINGAWARDS",
+      "lines": [
+        {
+          "text": "2017",
+          "confidence": 0.588914442062378
+        },
+        {
+          "text": "2017",
+          "confidence": 0.5811591029167176
+        },
+        {
+          "text": "KOAADERTISGAW",
+          "confidence": 0.859757023198264
+        },
+        {
+          "text": "PDS",
+          "confidence": 0.5616546124219894
+        },
+        {
+          "text": "KOREDVEFSINGARDS",
+          "confidence": 0.8809128719217637
+        },
+        {
+          "text": "KOREAADVERTIIGAVRDS",
+          "confidence": 0.8310253232717514
+        },
+        {
+          "text": "KOREAADLERTISINGAWARDS",
+          "confidence": 0.8341633288756661
+        }
+      ],
+      "elapsed": [
+        0.08611392974853516,
+        0.00604701042175293,
+        0.48987793922424316
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/014.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/014.processed.png",
+      "text": "KOREAADVETISINGAWADS\nKOAADVERTISINGARDS\nKOREAADERTIS\nGAWARDSKOREAVERTISINGNARP",
+      "lines": [
+        {
+          "text": "KOREAADVETISINGAWADS",
+          "confidence": 0.8712226010504223
+        },
+        {
+          "text": "KOAADVERTISINGARDS",
+          "confidence": 0.8973922635379591
+        },
+        {
+          "text": "KOREAADERTIS",
+          "confidence": 0.8902024122384878
+        },
+        {
+          "text": "GAWARDSKOREAVERTISINGNARP",
+          "confidence": 0.8630884885787964
+        }
+      ],
+      "elapsed": [
+        0.09197306632995605,
+        0.005184650421142578,
+        0.5252683162689209
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/015.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/015.processed.png",
+      "text": "KOREAADVERTISINGAWARDS\nKOREAADVERTISINGAWARDS\nKOREAADVERTISINGAARDS",
+      "lines": [
+        {
+          "text": "KOREAADVERTISINGAWARDS",
+          "confidence": 0.8927989861239558
+        },
+        {
+          "text": "KOREAADVERTISINGAWARDS",
+          "confidence": 0.9055420419444209
+        },
+        {
+          "text": "KOREAADVERTISINGAARDS",
+          "confidence": 0.9083543853326277
+        }
+      ],
+      "elapsed": [
+        0.10072612762451172,
+        0.004884958267211914,
+        0.33464598655700684
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/016.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/016.processed.png",
+      "text": "SAMSUNG\nVRPerfcrmance",
+      "lines": [
+        {
+          "text": "SAMSUNG",
+          "confidence": 0.8219147771596909
+        },
+        {
+          "text": "VRPerfcrmance",
+          "confidence": 0.7761310636997223
+        }
+      ],
+      "elapsed": [
+        0.16916298866271973,
+        0.0024330615997314453,
+        0.06655311584472656
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/017.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/017.processed.png",
+      "text": "KOREAADVERTISINGAWARDS\naobc\n5.9 HESG\nkt",
+      "lines": [
+        {
+          "text": "KOREAADVERTISINGAWARDS",
+          "confidence": 0.8980848607809647
+        },
+        {
+          "text": "aobc",
+          "confidence": 0.6450716853141785
+        },
+        {
+          "text": "5.9 HESG",
+          "confidence": 0.5601387487517463
+        },
+        {
+          "text": "kt",
+          "confidence": 0.5593531529108683
+        }
+      ],
+      "elapsed": [
+        0.1332406997680664,
+        0.013081789016723633,
+        0.2836606502532959
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/018.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/adco-2017-overview/018.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    }
+  ]
+}

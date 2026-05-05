@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-03-24T12:41:35.338400+00:00",
+  "minConfidence": 1.0,
+  "dryRun": false,
+  "candidateCount": 17,
+  "promotedCount": 9,
+  "skippedLowConfidenceCount": 4,
+  "skippedDuplicateCount": 4,
+  "promoted": [
+    {
+      "id": "ocr-2019-lg-tromm-트윈워시-한국인의-세탁-1",
+      "year": 2019,
+      "awardLevel": "대상",
+      "brand": "LG TROMM 트윈워시",
+      "campaign": "한국인의 세탁",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2015-삼성-smart-suit-5",
+      "year": 2015,
+      "awardLevel": "금상",
+      "brand": "삼성",
+      "campaign": "SMART SUIT",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2015-lg-oled-tv-g3-lg-g-watch-r-who-ruined-jenny-s-wedding-6",
+      "year": 2015,
+      "awardLevel": "은상",
+      "brand": "LG OLED TV, G3, LG G Watch R",
+      "campaign": "Who ruined Jenny's wedding?",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2015-코웨이-water-program-7",
+      "year": 2015,
+      "awardLevel": "은상",
+      "brand": "코웨이",
+      "campaign": "Water Program",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2015-삼성-curved-uhd-tv-detail-8",
+      "year": 2015,
+      "awardLevel": "동상",
+      "brand": "삼성 Curved UHD TV",
+      "campaign": "Detail",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2015-현대자동차-car-to-car-the-surprise-at-drive-in-theater-10",
+      "year": 2015,
+      "awardLevel": "은상",
+      "brand": "현대자동차",
+      "campaign": "CAR TO CAR The surprise at drive in theater",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2013-대한항공-around-the-world-in-80-seconds-13",
+      "year": 2013,
+      "awardLevel": "금상",
+      "brand": "대한항공",
+      "campaign": "Around the World in 80 Seconds",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2013-맥도날드-wake-up-with-mcmorning-14",
+      "year": 2013,
+      "awardLevel": "은상",
+      "brand": "맥도날드",
+      "campaign": "Wake up with McMorning",
+      "confidence": 1.0
+    },
+    {
+      "id": "ocr-2013-sk텔레콤-lte-warp-15",
+      "year": 2013,
+      "awardLevel": "동상",
+      "brand": "SK텔레콤",
+      "campaign": "LTE WARP",
+      "confidence": 1.0
+    }
+  ]
+}

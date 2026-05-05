@@ -1,0 +1,987 @@
+{
+  "source": {
+    "id": "opad-2015-overview",
+    "url": "https://op.ad.co.kr/journal/column/show.prt?ukey=429652",
+    "kind": "article",
+    "year": 2015,
+    "role": "overview"
+  },
+  "htmlPath": "archive/raw/opad-2015-overview.prt",
+  "imageCount": 38,
+  "results": [
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/001.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/001.processed.png",
+      "text": "SADKORUY\n22nd 2015 K0REA ADVERTISING AWARDS\n2015",
+      "lines": [
+        {
+          "text": "SADKORUY",
+          "confidence": 0.6230171140697267
+        },
+        {
+          "text": "22nd 2015 K0REA ADVERTISING AWARDS",
+          "confidence": 0.8421707851546151
+        },
+        {
+          "text": "2015",
+          "confidence": 0.5262969851493835
+        }
+      ],
+      "elapsed": [
+        0.1185600757598877,
+        0.002490997314453125,
+        0.20834589004516602
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/002.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/002.processed.png",
+      "text": "XH刷全鞋AMYOURFATHERO\nHSONE\nS10510\n221\nxoAMessageto Spaco)\nBURG\n(AMessageto Space)",
+      "lines": [
+        {
+          "text": "XH刷全鞋AMYOURFATHERO",
+          "confidence": 0.7377543919964841
+        },
+        {
+          "text": "HSONE",
+          "confidence": 0.5498711640636126
+        },
+        {
+          "text": "S10510",
+          "confidence": 0.5157935917377472
+        },
+        {
+          "text": "221",
+          "confidence": 0.5554126799106598
+        },
+        {
+          "text": "xoAMessageto Spaco)",
+          "confidence": 0.7122396439313888
+        },
+        {
+          "text": "BURG",
+          "confidence": 0.5602861523628235
+        },
+        {
+          "text": "(AMessageto Space)",
+          "confidence": 0.7485939750545904
+        }
+      ],
+      "elapsed": [
+        0.18898415565490723,
+        0.02740025520324707,
+        0.6168813705444336
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/003.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/003.processed.png",
+      "text": "3892718\nKeithPark\nANRR\n创号AMessagitoSpaci\nRhosialxhininxeeos\nHSOHS\n83834\nSK头\n28\nRR\n150PLAY《\nFotainion\nLGOLEDTV,G3,LGGWatch\n2-WhoruinedJenny'sweddng)\n88\n9714\n197/9\nM（TVROAD)\n88711\nSamsung CurvedUHDTVaDetao\n售719\n到口AMossigetoSpaco)",
+      "lines": [
+        {
+          "text": "3892718",
+          "confidence": 0.6270121894776821
+        },
+        {
+          "text": "KeithPark",
+          "confidence": 0.7787585854530334
+        },
+        {
+          "text": "ANRR",
+          "confidence": 0.5131783038377762
+        },
+        {
+          "text": "创号AMessagitoSpaci",
+          "confidence": 0.7179271645016141
+        },
+        {
+          "text": "Rhosialxhininxeeos",
+          "confidence": 0.6099505879377064
+        },
+        {
+          "text": "HSOHS",
+          "confidence": 0.5221592808763186
+        },
+        {
+          "text": "83834",
+          "confidence": 0.6832613249619802
+        },
+        {
+          "text": "SK头",
+          "confidence": 0.5171349607408047
+        },
+        {
+          "text": "28",
+          "confidence": 0.5566366314888
+        },
+        {
+          "text": "RR",
+          "confidence": 0.594133178393046
+        },
+        {
+          "text": "150PLAY《",
+          "confidence": 0.8015840517150031
+        },
+        {
+          "text": "Fotainion",
+          "confidence": 0.6230347335338593
+        },
+        {
+          "text": "LGOLEDTV,G3,LGGWatch",
+          "confidence": 0.8017024028868902
+        },
+        {
+          "text": "2-WhoruinedJenny'sweddng)",
+          "confidence": 0.8422799064562871
+        },
+        {
+          "text": "88",
+          "confidence": 0.5356626113255819
+        },
+        {
+          "text": "9714",
+          "confidence": 0.5892770886421204
+        },
+        {
+          "text": "197/9",
+          "confidence": 0.5619325190782547
+        },
+        {
+          "text": "M（TVROAD)",
+          "confidence": 0.6886896431446076
+        },
+        {
+          "text": "88711",
+          "confidence": 0.60178870956103
+        },
+        {
+          "text": "Samsung CurvedUHDTVaDetao",
+          "confidence": 0.8640269442246511
+        },
+        {
+          "text": "售719",
+          "confidence": 0.5418046891689301
+        },
+        {
+          "text": "到口AMossigetoSpaco)",
+          "confidence": 0.6880576602722469
+        }
+      ],
+      "elapsed": [
+        0.23496317863464355,
+        0.1011955738067627,
+        1.5498015880584717
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/004.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/004.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/005.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/005.processed.png",
+      "text": "X<IAMYOURFATHERY",
+      "lines": [
+        {
+          "text": "X<IAMYOURFATHERY",
+          "confidence": 0.816091833745732
+        }
+      ],
+      "elapsed": [
+        0.11221098899841309,
+        0.0016579627990722656,
+        0.12146210670471191
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/006.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/006.processed.png",
+      "text": "X料<AMessagetoSpace)\nmontessori",
+      "lines": [
+        {
+          "text": "X料<AMessagetoSpace)",
+          "confidence": 0.834433700889349
+        },
+        {
+          "text": "montessori",
+          "confidence": 0.7925679141824896
+        }
+      ],
+      "elapsed": [
+        0.11612582206726074,
+        0.003031015396118164,
+        0.29425787925720215
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/007.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/007.processed.png",
+      "text": "NE2015H1早E4件7\n201512早月4档\nNa2015H12E47",
+      "lines": [
+        {
+          "text": "NE2015H1早E4件7",
+          "confidence": 0.5713787733444146
+        },
+        {
+          "text": "201512早月4档",
+          "confidence": 0.5150147974491119
+        },
+        {
+          "text": "Na2015H12E47",
+          "confidence": 0.6627141764530768
+        }
+      ],
+      "elapsed": [
+        0.2691028118133545,
+        0.014698028564453125,
+        0.7368404865264893
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/008.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/008.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/009.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/009.processed.png",
+      "text": "AMessagetoSpace）\nCanpaign Beckground\nSTOP\nDTO",
+      "lines": [
+        {
+          "text": "AMessagetoSpace）",
+          "confidence": 0.835934991345686
+        },
+        {
+          "text": "Canpaign Beckground",
+          "confidence": 0.8281854972243309
+        },
+        {
+          "text": "STOP",
+          "confidence": 0.7500144600868225
+        },
+        {
+          "text": "DTO",
+          "confidence": 0.6267232894897461
+        }
+      ],
+      "elapsed": [
+        0.22638678550720215,
+        0.007268428802490234,
+        0.4412667751312256
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/010.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/010.processed.png",
+      "text": "ChargetheLife)\nCHARGE THE LIFE\nSamsungExternal BatteryPack Animal Edition\nBackgyound",
+      "lines": [
+        {
+          "text": "ChargetheLife)",
+          "confidence": 0.8449903706709544
+        },
+        {
+          "text": "CHARGE THE LIFE",
+          "confidence": 0.8608046621084213
+        },
+        {
+          "text": "SamsungExternal BatteryPack Animal Edition",
+          "confidence": 0.8877955910771392
+        },
+        {
+          "text": "Backgyound",
+          "confidence": 0.6530456922271035
+        }
+      ],
+      "elapsed": [
+        0.26899194717407227,
+        0.015830039978027344,
+        0.5706589221954346
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/011.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/011.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/012.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/012.processed.png",
+      "text": "创外<AMessagetoSpace)\nAMessage to Space\nMessage\nSpace\nHyundalwarsedtoag\nbingstepnenleadherdudcloeo",
+      "lines": [
+        {
+          "text": "创外<AMessagetoSpace)",
+          "confidence": 0.7734393969178199
+        },
+        {
+          "text": "AMessage to Space",
+          "confidence": 0.8309183385637071
+        },
+        {
+          "text": "Message",
+          "confidence": 0.8453120067715645
+        },
+        {
+          "text": "Space",
+          "confidence": 0.7115282813707987
+        },
+        {
+          "text": "Hyundalwarsedtoag",
+          "confidence": 0.7258773951066865
+        },
+        {
+          "text": "bingstepnenleadherdudcloeo",
+          "confidence": 0.6958044403129153
+        }
+      ],
+      "elapsed": [
+        0.19110703468322754,
+        0.0066874027252197266,
+        0.3933253288269043
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/013.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/013.processed.png",
+      "text": "早号\nTV",
+      "lines": [
+        {
+          "text": "早号",
+          "confidence": 0.5410645604133606
+        },
+        {
+          "text": "TV",
+          "confidence": 0.635031501452128
+        }
+      ],
+      "elapsed": [
+        0.11803770065307617,
+        0.0028352737426757812,
+        0.01933908462524414
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/014.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/014.processed.png",
+      "text": "pr\nSMART SUIT",
+      "lines": [
+        {
+          "text": "pr",
+          "confidence": 0.6170639197031657
+        },
+        {
+          "text": "SMART SUIT",
+          "confidence": 0.8284673474051736
+        }
+      ],
+      "elapsed": [
+        0.2816781997680664,
+        0.014824390411376953,
+        0.49352335929870605
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/015.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/015.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/016.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/016.processed.png",
+      "text": "28%",
+      "lines": [
+        {
+          "text": "28%",
+          "confidence": 0.7421553134918213
+        }
+      ],
+      "elapsed": [
+        0.30075907707214355,
+        0.008580923080444336,
+        0.5371403694152832
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/017.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/017.processed.png",
+      "text": "早号",
+      "lines": [
+        {
+          "text": "早号",
+          "confidence": 0.5685070951779684
+        }
+      ],
+      "elapsed": [
+        0.1115870475769043,
+        0.0020952224731445312,
+        0.008742094039916992
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/018.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/018.processed.png",
+      "text": "<TVROAD)\n55",
+      "lines": [
+        {
+          "text": "<TVROAD)",
+          "confidence": 0.7256923483477699
+        },
+        {
+          "text": "55",
+          "confidence": 0.5746005376180013
+        }
+      ],
+      "elapsed": [
+        0.22513723373413086,
+        0.006602764129638672,
+        0.34156227111816406
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/019.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/019.processed.png",
+      "text": "早号",
+      "lines": [
+        {
+          "text": "早号",
+          "confidence": 0.5409675041834513
+        }
+      ],
+      "elapsed": [
+        0.07254505157470703,
+        0.001811981201171875,
+        0.011370182037353516
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/020.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/020.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/021.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/021.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/022.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/022.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/023.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/023.processed.png",
+      "text": "可3lollo12",
+      "lines": [
+        {
+          "text": "可3lollo12",
+          "confidence": 0.5254417791962623
+        }
+      ],
+      "elapsed": [
+        0.12952184677124023,
+        0.002225160598754883,
+        0.04753708839416504
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/024.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/024.processed.png",
+      "text": "150PLAY\nIDEA",
+      "lines": [
+        {
+          "text": "150PLAY",
+          "confidence": 0.7325553670525551
+        },
+        {
+          "text": "IDEA",
+          "confidence": 0.7033164024353027
+        }
+      ],
+      "elapsed": [
+        0.19666194915771484,
+        0.012824296951293945,
+        0.49243974685668945
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/025.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/025.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/026.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/026.processed.png",
+      "text": "<AMessagetoSpace)\nIBOUNAH\n65,480.000H\nHuundarsne\nAMessagetoSpace\nLG OLED TV, G3, LG G Watch R\n《-WhoruinedJennyswedding)\nWHORUINEDJENNY'SWEDDING?",
+      "lines": [
+        {
+          "text": "<AMessagetoSpace)",
+          "confidence": 0.8752752277586195
+        },
+        {
+          "text": "IBOUNAH",
+          "confidence": 0.6524311043322086
+        },
+        {
+          "text": "65,480.000H",
+          "confidence": 0.5510833660761515
+        },
+        {
+          "text": "Huundarsne",
+          "confidence": 0.6861755414442583
+        },
+        {
+          "text": "AMessagetoSpace",
+          "confidence": 0.9326028227806091
+        },
+        {
+          "text": "LG OLED TV, G3, LG G Watch R",
+          "confidence": 0.899262103541144
+        },
+        {
+          "text": "《-WhoruinedJennyswedding)",
+          "confidence": 0.8372808052943304
+        },
+        {
+          "text": "WHORUINEDJENNY'SWEDDING?",
+          "confidence": 0.8647929167747498
+        }
+      ],
+      "elapsed": [
+        0.21186614036560059,
+        0.03978610038757324,
+        0.5121393203735352
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/027.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/027.processed.png",
+      "text": "早号",
+      "lines": [
+        {
+          "text": "早号",
+          "confidence": 0.5048932631810507
+        }
+      ],
+      "elapsed": [
+        0.06656312942504883,
+        0.0012547969818115234,
+        0.011929750442504883
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/028.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/028.processed.png",
+      "text": "WaterProgram\nCoway\nBreak",
+      "lines": [
+        {
+          "text": "WaterProgram",
+          "confidence": 0.8292947870034438
+        },
+        {
+          "text": "Coway",
+          "confidence": 0.7547449866930643
+        },
+        {
+          "text": "Break",
+          "confidence": 0.758272667725881
+        }
+      ],
+      "elapsed": [
+        0.18787908554077148,
+        0.007423877716064453,
+        0.32922911643981934
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/029.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/029.processed.png",
+      "text": "早号",
+      "lines": [
+        {
+          "text": "早号",
+          "confidence": 0.5280608932177225
+        }
+      ],
+      "elapsed": [
+        0.06973385810852051,
+        0.002101898193359375,
+        0.01229405403137207
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/030.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/030.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/031.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/031.processed.png",
+      "text": "lollo",
+      "lines": [
+        {
+          "text": "lollo",
+          "confidence": 0.5386924346288046
+        }
+      ],
+      "elapsed": [
+        0.05977225303649902,
+        0.002122163772583008,
+        0.012377023696899414
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/032.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/032.processed.png",
+      "text": "1.7吨",
+      "lines": [
+        {
+          "text": "1.7吨",
+          "confidence": 0.5036215141415596
+        }
+      ],
+      "elapsed": [
+        0.22598910331726074,
+        0.021634340286254883,
+        0.7329592704772949
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/033.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/033.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/034.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/034.processed.png",
+      "text": "Samsung Curved UHDTV《Detail>",
+      "lines": [
+        {
+          "text": "Samsung Curved UHDTV《Detail>",
+          "confidence": 0.8663613755127479
+        }
+      ],
+      "elapsed": [
+        0.19052433967590332,
+        0.007084846496582031,
+        0.45003461837768555
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/035.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/035.processed.png",
+      "text": "<AMessagetoSpace)",
+      "lines": [
+        {
+          "text": "<AMessagetoSpace)",
+          "confidence": 0.839637009633912
+        }
+      ],
+      "elapsed": [
+        0.15068531036376953,
+        0.009054899215698242,
+        0.4546692371368408
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/036.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/036.processed.png",
+      "text": "sara\n2015.6.15",
+      "lines": [
+        {
+          "text": "sara",
+          "confidence": 0.7964558959007263
+        },
+        {
+          "text": "2015.6.15",
+          "confidence": 0.7380296051502228
+        }
+      ],
+      "elapsed": [
+        0.2182021141052246,
+        0.019476890563964844,
+        0.6190488338470459
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/037.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/037.processed.png",
+      "text": "TBWA KDFEA\nSSG.COM包世D\nS100D\nDoos\nAPC\nKS085\nEOS7000(0)\nKDC2\n147[7825\n<Go Dynanic>\n029\nqi<A Messageto Space)\n015215\nRecbok(X18  U)\nTBWA KDFEA\nARLICH\nLFEI <CAR TO CAR The surprise at drive in theotod)\n创<A Messageto Spoco)\nPecbok(e  U1)\n015:215\nRecbok (Run The Movie)\n015215\nThe North Face Korea (Never Stop Exploring Canpaign)\n015215\nKing\n012823717\n77 (Lighit 0用! Forest ON)\n1877\n0 (SEX DRIVE KGlkr AD for Teeres)",
+      "lines": [
+        {
+          "text": "TBWA KDFEA",
+          "confidence": 0.7954549518498507
+        },
+        {
+          "text": "SSG.COM包世D",
+          "confidence": 0.6798873706297441
+        },
+        {
+          "text": "S100D",
+          "confidence": 0.5000940809647242
+        },
+        {
+          "text": "Doos",
+          "confidence": 0.6513397574424744
+        },
+        {
+          "text": "APC",
+          "confidence": 0.685429111123085
+        },
+        {
+          "text": "KS085",
+          "confidence": 0.5186928957700729
+        },
+        {
+          "text": "EOS7000(0)",
+          "confidence": 0.5752777267586101
+        },
+        {
+          "text": "KDC2",
+          "confidence": 0.5236645340919495
+        },
+        {
+          "text": "147[7825",
+          "confidence": 0.5181825045082304
+        },
+        {
+          "text": "<Go Dynanic>",
+          "confidence": 0.7808694977026719
+        },
+        {
+          "text": "029",
+          "confidence": 0.5249306410551071
+        },
+        {
+          "text": "qi<A Messageto Space)",
+          "confidence": 0.8625626482746818
+        },
+        {
+          "text": "015215",
+          "confidence": 0.5389160599027362
+        },
+        {
+          "text": "Recbok(X18  U)",
+          "confidence": 0.5215619653463364
+        },
+        {
+          "text": "TBWA KDFEA",
+          "confidence": 0.8167362104762684
+        },
+        {
+          "text": "ARLICH",
+          "confidence": 0.5526788405009678
+        },
+        {
+          "text": "LFEI <CAR TO CAR The surprise at drive in theotod)",
+          "confidence": 0.7956814622762156
+        },
+        {
+          "text": "创<A Messageto Spoco)",
+          "confidence": 0.7654087657020205
+        },
+        {
+          "text": "Pecbok(e  U1)",
+          "confidence": 0.5496125939701285
+        },
+        {
+          "text": "015:215",
+          "confidence": 0.6277989447116852
+        },
+        {
+          "text": "Recbok (Run The Movie)",
+          "confidence": 0.8358826378117437
+        },
+        {
+          "text": "015215",
+          "confidence": 0.5099082589149475
+        },
+        {
+          "text": "The North Face Korea (Never Stop Exploring Canpaign)",
+          "confidence": 0.8745644666113943
+        },
+        {
+          "text": "015215",
+          "confidence": 0.5300490813595908
+        },
+        {
+          "text": "King",
+          "confidence": 0.65027334690094
+        },
+        {
+          "text": "012823717",
+          "confidence": 0.5402617633342743
+        },
+        {
+          "text": "77 (Lighit 0用! Forest ON)",
+          "confidence": 0.7048025440711242
+        },
+        {
+          "text": "1877",
+          "confidence": 0.526594614982605
+        },
+        {
+          "text": "0 (SEX DRIVE KGlkr AD for Teeres)",
+          "confidence": 0.7932805528535563
+        }
+      ],
+      "elapsed": [
+        0.243682861328125,
+        0.12875628471374512,
+        1.8373134136199951
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/038.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2015-overview/038.processed.png",
+      "text": "含Qz (Be the leadsr ofnew era)\nA鲁孕 O1/PR_)\n(Farm to tableFreshness)\n015:215\n015215\n数2(80)\naalo02E\n2210\n<Dont'sSip)\nSK2\nDoos\n5 (Inspiration-Tll)\n工PR(718E外018)\n015215\nK3085\n（2014)\nV8G\nRecbok( w)\n015215\nTBWA KDFEA\n4017[32(0F\nLFEI<CAR TO CAR The surprise at drive in theotet)\nMent\nSKPR\nSK100XD\nDoos\nSka (band LTE\nDoos\nlohlo\nK3S085",
+      "lines": [
+        {
+          "text": "含Qz (Be the leadsr ofnew era)",
+          "confidence": 0.7821233396728834
+        },
+        {
+          "text": "A鲁孕 O1/PR_)",
+          "confidence": 0.5531691623230776
+        },
+        {
+          "text": "(Farm to tableFreshness)",
+          "confidence": 0.8183670127391816
+        },
+        {
+          "text": "015:215",
+          "confidence": 0.5498130656778812
+        },
+        {
+          "text": "015215",
+          "confidence": 0.6126027873584202
+        },
+        {
+          "text": "数2(80)",
+          "confidence": 0.5429867995636803
+        },
+        {
+          "text": "aalo02E",
+          "confidence": 0.5065201614052057
+        },
+        {
+          "text": "2210",
+          "confidence": 0.5388438463211059
+        },
+        {
+          "text": "<Dont'sSip)",
+          "confidence": 0.6545177474617958
+        },
+        {
+          "text": "SK2",
+          "confidence": 0.506915733218193
+        },
+        {
+          "text": "Doos",
+          "confidence": 0.7273593306541443
+        },
+        {
+          "text": "5 (Inspiration-Tll)",
+          "confidence": 0.780333299934864
+        },
+        {
+          "text": "工PR(718E外018)",
+          "confidence": 0.5833206070320947
+        },
+        {
+          "text": "015215",
+          "confidence": 0.5607696899345943
+        },
+        {
+          "text": "K3085",
+          "confidence": 0.6448988219102224
+        },
+        {
+          "text": "（2014)",
+          "confidence": 0.7044769951275417
+        },
+        {
+          "text": "V8G",
+          "confidence": 0.5839035362005234
+        },
+        {
+          "text": "Recbok( w)",
+          "confidence": 0.5760403729297898
+        },
+        {
+          "text": "015215",
+          "confidence": 0.5392072754246848
+        },
+        {
+          "text": "TBWA KDFEA",
+          "confidence": 0.8420443643223156
+        },
+        {
+          "text": "4017[32(0F",
+          "confidence": 0.5370199612595818
+        },
+        {
+          "text": "LFEI<CAR TO CAR The surprise at drive in theotet)",
+          "confidence": 0.8222341588139535
+        },
+        {
+          "text": "Ment",
+          "confidence": 0.5013679563999176
+        },
+        {
+          "text": "SKPR",
+          "confidence": 0.5635327816009521
+        },
+        {
+          "text": "SK100XD",
+          "confidence": 0.6153656542301178
+        },
+        {
+          "text": "Doos",
+          "confidence": 0.6645259022712707
+        },
+        {
+          "text": "Ska (band LTE",
+          "confidence": 0.7092293085796493
+        },
+        {
+          "text": "Doos",
+          "confidence": 0.7245720386505127
+        },
+        {
+          "text": "lohlo",
+          "confidence": 0.5826656371355057
+        },
+        {
+          "text": "K3S085",
+          "confidence": 0.516340047121048
+        }
+      ],
+      "elapsed": [
+        0.19132280349731445,
+        0.10093259811401367,
+        1.6666488647460938
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local source downloads and heavy raw crawl/OCR artifacts.
+downloads/
+archive/raw/
+

@@ -1,0 +1,229 @@
+{
+  "source": {
+    "id": "opad-2019-overview",
+    "url": "https://op.ad.co.kr/journal/column/show.prt?ukey=537583",
+    "kind": "article",
+    "year": 2019,
+    "role": "overview"
+  },
+  "htmlPath": "archive/raw/opad-2019-overview.prt",
+  "imageCount": 14,
+  "results": [
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/001.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/001.processed.png",
+      "text": "610,\n12吉 I1012",
+      "lines": [
+        {
+          "text": "610,",
+          "confidence": 0.5758722523848215
+        },
+        {
+          "text": "12吉 I1012",
+          "confidence": 0.5312440425157547
+        }
+      ],
+      "elapsed": [
+        0.2900688648223877,
+        0.0036039352416992188,
+        0.15256309509277344
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/002.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/002.processed.png",
+      "text": "ReAreAy？[]",
+      "lines": [
+        {
+          "text": "ReAreAy？[]",
+          "confidence": 0.5676947805014524
+        }
+      ],
+      "elapsed": [
+        0.19442009925842285,
+        0.0022430419921875,
+        0.1065070629119873
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/003.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/003.processed.png",
+      "text": "[百可层\nRe-Ad,reADY?",
+      "lines": [
+        {
+          "text": "[百可层",
+          "confidence": 0.5546918690204621
+        },
+        {
+          "text": "Re-Ad,reADY?",
+          "confidence": 0.9000164178701547
+        }
+      ],
+      "elapsed": [
+        0.10846495628356934,
+        0.004544258117675781,
+        0.1816387176513672
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/004.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/004.processed.png",
+      "text": "CH\n[C以]",
+      "lines": [
+        {
+          "text": "CH",
+          "confidence": 0.6615527470906576
+        },
+        {
+          "text": "[C以]",
+          "confidence": 0.5865734100341797
+        }
+      ],
+      "elapsed": [
+        0.25115227699279785,
+        0.005366802215576172,
+        0.21859002113342285
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/005.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/005.processed.png",
+      "text": "Re-AD，reADy?[CA，\nAD,reADyCh",
+      "lines": [
+        {
+          "text": "Re-AD，reADy?[CA，",
+          "confidence": 0.5690387680250055
+        },
+        {
+          "text": "AD,reADyCh",
+          "confidence": 0.6326004402203993
+        }
+      ],
+      "elapsed": [
+        0.0952000617980957,
+        0.005985736846923828,
+        0.23313546180725098
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/006.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/006.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/007.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/007.processed.png",
+      "text": "KoreaAdvertisingAwards",
+      "lines": [
+        {
+          "text": "KoreaAdvertisingAwards",
+          "confidence": 0.90831124264261
+        }
+      ],
+      "elapsed": [
+        0.11016392707824707,
+        0.001950979232788086,
+        0.16093897819519043
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/008.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/008.processed.png",
+      "text": "五2.100\n[ioly]",
+      "lines": [
+        {
+          "text": "五2.100",
+          "confidence": 0.6914313733577728
+        },
+        {
+          "text": "[ioly]",
+          "confidence": 0.5389968923160008
+        }
+      ],
+      "elapsed": [
+        0.1694049835205078,
+        0.005659818649291992,
+        0.10976004600524902
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/009.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/009.processed.png",
+      "text": "LG5G\n[LG5G]\nlo",
+      "lines": [
+        {
+          "text": "LG5G",
+          "confidence": 0.6044229984283447
+        },
+        {
+          "text": "[LG5G]",
+          "confidence": 0.7305458613804409
+        },
+        {
+          "text": "lo",
+          "confidence": 0.5523325800895691
+        }
+      ],
+      "elapsed": [
+        0.085845947265625,
+        0.0034990310668945312,
+        0.09420585632324219
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/010.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/010.processed.png",
+      "text": "[G]",
+      "lines": [
+        {
+          "text": "[G]",
+          "confidence": 0.6331149488687515
+        }
+      ],
+      "elapsed": [
+        0.1111149787902832,
+        0.0029408931732177734,
+        0.06066322326660156
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/011.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/011.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/012.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/012.processed.png",
+      "text": "TV",
+      "lines": [
+        {
+          "text": "TV",
+          "confidence": 0.6597786545753479
+        }
+      ],
+      "elapsed": [
+        0.1044301986694336,
+        0.004054069519042969,
+        0.07339334487915039
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/013.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/013.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/014.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2019-overview/014.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    }
+  ]
+}

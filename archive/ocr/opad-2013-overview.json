@@ -1,0 +1,1695 @@
+{
+  "source": {
+    "id": "opad-2013-overview",
+    "url": "https://op.ad.co.kr/journal/column/show.do?ukey=304091",
+    "kind": "article",
+    "year": 2013,
+    "role": "overview"
+  },
+  "htmlPath": "archive/raw/opad-2013-overview.do",
+  "imageCount": 66,
+  "results": [
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/001.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/001.processed.png",
+      "text": "20113\n20th2013K0REA\nADVERTISINGAWARDS",
+      "lines": [
+        {
+          "text": "20113",
+          "confidence": 0.5385593126217524
+        },
+        {
+          "text": "20th2013K0REA",
+          "confidence": 0.905239292553493
+        },
+        {
+          "text": "ADVERTISINGAWARDS",
+          "confidence": 0.8542016247908274
+        }
+      ],
+      "elapsed": [
+        0.11817812919616699,
+        0.002203226089477539,
+        0.17963480949401855
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/002.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/002.processed.png",
+      "text": "2013",
+      "lines": [
+        {
+          "text": "2013",
+          "confidence": 0.5208102822303772
+        }
+      ],
+      "elapsed": [
+        0.17883801460266113,
+        0.0016701221466064453,
+        0.11036396026611328
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/003.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/003.processed.png",
+      "text": "PYXINNONATIONLAB\nTV早足\nBPRN\nesLookU\nSM\nSMLSidkyMorelerLat'DonalonToy",
+      "lines": [
+        {
+          "text": "PYXINNONATIONLAB",
+          "confidence": 0.8602807697127847
+        },
+        {
+          "text": "TV早足",
+          "confidence": 0.6315616071224213
+        },
+        {
+          "text": "BPRN",
+          "confidence": 0.5139568388462067
+        },
+        {
+          "text": "esLookU",
+          "confidence": 0.5871498174965382
+        },
+        {
+          "text": "SM",
+          "confidence": 0.6427703301111857
+        },
+        {
+          "text": "SMLSidkyMorelerLat'DonalonToy",
+          "confidence": 0.7578073749939601
+        }
+      ],
+      "elapsed": [
+        0.12854814529418945,
+        0.06497502326965332,
+        1.123013973236084
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/004.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/004.processed.png",
+      "text": "TV早品\nBRRR\n（TV）\n0125\nieMyKidsAop\nHSONS\nHSOHE\nTV早是\nHSOIE\nLGXICLEDTVWodSimestTV\nqyMDonald'sKoreaMomsCareerDay\nTBWAKOREA\nHSONE\nbaloto\n(RRRVV)",
+      "lines": [
+        {
+          "text": "TV早品",
+          "confidence": 0.6368966102600098
+        },
+        {
+          "text": "BRRR",
+          "confidence": 0.5172208547592163
+        },
+        {
+          "text": "（TV）",
+          "confidence": 0.5450814068317413
+        },
+        {
+          "text": "0125",
+          "confidence": 0.5799254179000854
+        },
+        {
+          "text": "ieMyKidsAop",
+          "confidence": 0.6157032003005346
+        },
+        {
+          "text": "HSONS",
+          "confidence": 0.5489500860373179
+        },
+        {
+          "text": "HSOHE",
+          "confidence": 0.7543096045653025
+        },
+        {
+          "text": "TV早是",
+          "confidence": 0.5927115023136139
+        },
+        {
+          "text": "HSOIE",
+          "confidence": 0.5725476294755936
+        },
+        {
+          "text": "LGXICLEDTVWodSimestTV",
+          "confidence": 0.7027881389314478
+        },
+        {
+          "text": "qyMDonald'sKoreaMomsCareerDay",
+          "confidence": 0.8401474048693974
+        },
+        {
+          "text": "TBWAKOREA",
+          "confidence": 0.7823511064052582
+        },
+        {
+          "text": "HSONE",
+          "confidence": 0.5066161106030146
+        },
+        {
+          "text": "baloto",
+          "confidence": 0.5006586951868874
+        },
+        {
+          "text": "(RRRVV)",
+          "confidence": 0.5039005689322948
+        }
+      ],
+      "elapsed": [
+        0.10666108131408691,
+        0.0650477409362793,
+        1.3495447635650635
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/005.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/005.processed.png",
+      "text": "2013Korea Advertising Awards\n2013 Korea AdvertisingAwards",
+      "lines": [
+        {
+          "text": "2013Korea Advertising Awards",
+          "confidence": 0.8669298065119776
+        },
+        {
+          "text": "2013 Korea AdvertisingAwards",
+          "confidence": 0.8274080845816382
+        }
+      ],
+      "elapsed": [
+        0.38194894790649414,
+        0.0036840438842773438,
+        0.1479811668395996
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/006.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/006.processed.png",
+      "text": "SONATA",
+      "lines": [
+        {
+          "text": "SONATA",
+          "confidence": 0.846198490687779
+        }
+      ],
+      "elapsed": [
+        0.07936787605285645,
+        0.0024721622467041016,
+        0.2682771682739258
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/007.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/007.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/008.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/008.processed.png",
+      "text": "2013Korea Advertising Awards\n2013KoreaAdvertising.Awards",
+      "lines": [
+        {
+          "text": "2013Korea Advertising Awards",
+          "confidence": 0.9106581642709929
+        },
+        {
+          "text": "2013KoreaAdvertising.Awards",
+          "confidence": 0.8741601375596864
+        }
+      ],
+      "elapsed": [
+        0.28026914596557617,
+        0.0031609535217285156,
+        0.14812803268432617
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/009.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/009.processed.png",
+      "text": "LGEA\nLG\nLGTROMMStyler\nLGTROMMStyler\nLGTROMMStyler",
+      "lines": [
+        {
+          "text": "LGEA",
+          "confidence": 0.6221335768699646
+        },
+        {
+          "text": "LG",
+          "confidence": 0.6494816740353903
+        },
+        {
+          "text": "LGTROMMStyler",
+          "confidence": 0.8368841069085258
+        },
+        {
+          "text": "LGTROMMStyler",
+          "confidence": 0.7918700235230582
+        },
+        {
+          "text": "LGTROMMStyler",
+          "confidence": 0.7991462775639125
+        }
+      ],
+      "elapsed": [
+        0.10421490669250488,
+        0.0072972774505615234,
+        0.21633315086364746
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/010.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/010.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/011.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/011.processed.png",
+      "text": "2013Korea Adverising Awards\n2013KoreaAdvertisingAwards",
+      "lines": [
+        {
+          "text": "2013Korea Adverising Awards",
+          "confidence": 0.8600688981158393
+        },
+        {
+          "text": "2013KoreaAdvertisingAwards",
+          "confidence": 0.9061194481673064
+        }
+      ],
+      "elapsed": [
+        0.23028206825256348,
+        0.0024268627166748047,
+        0.11848092079162598
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/012.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/012.processed.png",
+      "text": "MVETEFESTAL",
+      "lines": [
+        {
+          "text": "MVETEFESTAL",
+          "confidence": 0.6245832567413648
+        }
+      ],
+      "elapsed": [
+        0.1109011173248291,
+        0.002273082733154297,
+        0.1880960464477539
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/013.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/013.processed.png",
+      "text": "★口大早\nTAPEFORWILDLIFE",
+      "lines": [
+        {
+          "text": "★口大早",
+          "confidence": 0.6205040812492371
+        },
+        {
+          "text": "TAPEFORWILDLIFE",
+          "confidence": 0.8725622594356537
+        }
+      ],
+      "elapsed": [
+        0.0837249755859375,
+        0.002165079116821289,
+        0.22848987579345703
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/014.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/014.processed.png",
+      "text": "2013 Koreu Advertising Awards\nKorenFerkerlcnrt\n2013KoreaAdverising Awards",
+      "lines": [
+        {
+          "text": "2013 Koreu Advertising Awards",
+          "confidence": 0.8308748096227646
+        },
+        {
+          "text": "KorenFerkerlcnrt",
+          "confidence": 0.5369026634623023
+        },
+        {
+          "text": "2013KoreaAdverising Awards",
+          "confidence": 0.8952683475282457
+        }
+      ],
+      "elapsed": [
+        0.21323180198669434,
+        0.002866983413696289,
+        0.1023092269897461
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/015.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/015.processed.png",
+      "text": "100tlo",
+      "lines": [
+        {
+          "text": "100tlo",
+          "confidence": 0.5940479636192322
+        }
+      ],
+      "elapsed": [
+        0.08245301246643066,
+        0.008762598037719727,
+        0.32663989067077637
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/016.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/016.processed.png",
+      "text": "2013 KoreeAdvertising Awands\n(TV)\nCereuFederiUonol\n2013KoreaAdvertisingAvards\ndernAgoetors",
+      "lines": [
+        {
+          "text": "2013 KoreeAdvertising Awands",
+          "confidence": 0.8159683531728285
+        },
+        {
+          "text": "(TV)",
+          "confidence": 0.7886736035346985
+        },
+        {
+          "text": "CereuFederiUonol",
+          "confidence": 0.5951635820024154
+        },
+        {
+          "text": "2013KoreaAdvertisingAvards",
+          "confidence": 0.845112853580051
+        },
+        {
+          "text": "dernAgoetors",
+          "confidence": 0.6491254476400522
+        }
+      ],
+      "elapsed": [
+        0.18752598762512207,
+        0.003021240234375,
+        0.13816380500793457
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/017.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/017.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/018.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/018.processed.png",
+      "text": "SEJOBKOREA\nRWLJOBKOREA\n空WEJOBKOREA\n总断EJOBKORE\n立制色JOBKOREA\nEJOBKOREA",
+      "lines": [
+        {
+          "text": "SEJOBKOREA",
+          "confidence": 0.7817184220660817
+        },
+        {
+          "text": "RWLJOBKOREA",
+          "confidence": 0.7291641036669413
+        },
+        {
+          "text": "空WEJOBKOREA",
+          "confidence": 0.7676604762673378
+        },
+        {
+          "text": "总断EJOBKORE",
+          "confidence": 0.6386225765401666
+        },
+        {
+          "text": "立制色JOBKOREA",
+          "confidence": 0.649367135638992
+        },
+        {
+          "text": "EJOBKOREA",
+          "confidence": 0.8611956834793091
+        }
+      ],
+      "elapsed": [
+        0.10826420783996582,
+        0.005233049392700195,
+        0.22132277488708496
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/019.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/019.processed.png",
+      "text": "DAI7IEF7!",
+      "lines": [
+        {
+          "text": "DAI7IEF7!",
+          "confidence": 0.570729273557663
+        }
+      ],
+      "elapsed": [
+        0.0881507396697998,
+        0.002402067184448242,
+        0.2933650016784668
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/020.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/020.processed.png",
+      "text": "2813Karell Advertisind Awurds\nKoreofedereronof\n2013Korea Advertising Awards\nAertisrgAocotars",
+      "lines": [
+        {
+          "text": "2813Karell Advertisind Awurds",
+          "confidence": 0.7756872708598773
+        },
+        {
+          "text": "Koreofedereronof",
+          "confidence": 0.7583853374509251
+        },
+        {
+          "text": "2013Korea Advertising Awards",
+          "confidence": 0.832566997100567
+        },
+        {
+          "text": "AertisrgAocotars",
+          "confidence": 0.7257256718242869
+        }
+      ],
+      "elapsed": [
+        0.22580289840698242,
+        0.0048046112060546875,
+        0.17592477798461914
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/021.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/021.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/022.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/022.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/023.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/023.processed.png",
+      "text": "LGOLEDTVWorldSlimmestTV\nLGOEDTV\nEifesGoed",
+      "lines": [
+        {
+          "text": "LGOLEDTVWorldSlimmestTV",
+          "confidence": 0.8004095107316971
+        },
+        {
+          "text": "LGOEDTV",
+          "confidence": 0.8261924758553505
+        },
+        {
+          "text": "EifesGoed",
+          "confidence": 0.6087689727544785
+        }
+      ],
+      "elapsed": [
+        0.10904312133789062,
+        0.004782915115356445,
+        0.2460310459136963
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/024.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/024.processed.png",
+      "text": "2011Korea Adertising Awards\nKorecFedereio-ol\n2013KoreaAdvertising Awards\nPdverseAsodotors",
+      "lines": [
+        {
+          "text": "2011Korea Adertising Awards",
+          "confidence": 0.8729459526283401
+        },
+        {
+          "text": "KorecFedereio-ol",
+          "confidence": 0.6322102020768559
+        },
+        {
+          "text": "2013KoreaAdvertising Awards",
+          "confidence": 0.8499257543257305
+        },
+        {
+          "text": "PdverseAsodotors",
+          "confidence": 0.5367491017369663
+        }
+      ],
+      "elapsed": [
+        0.24765992164611816,
+        0.004733085632324219,
+        0.16512489318847656
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/025.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/025.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/026.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/026.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/027.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/027.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/028.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/028.processed.png",
+      "text": "2013KoreaAdvertiging Awsnds\nKoeFrerroeal\n2dt3KoreaAdvertising Awards\n(/041210/h）\nPorertisngAocnters",
+      "lines": [
+        {
+          "text": "2013KoreaAdvertiging Awsnds",
+          "confidence": 0.7889466232487133
+        },
+        {
+          "text": "KoeFrerroeal",
+          "confidence": 0.6187577958290393
+        },
+        {
+          "text": "2dt3KoreaAdvertising Awards",
+          "confidence": 0.8659255142722811
+        },
+        {
+          "text": "(/041210/h）",
+          "confidence": 0.501152478158474
+        },
+        {
+          "text": "PorertisngAocnters",
+          "confidence": 0.6876731420818128
+        }
+      ],
+      "elapsed": [
+        0.24431896209716797,
+        0.005471944808959961,
+        0.14546918869018555
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/029.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/029.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/030.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/030.processed.png",
+      "text": "“MyKidsApp\nBannker Cicke\n[F S0]",
+      "lines": [
+        {
+          "text": "“MyKidsApp",
+          "confidence": 0.8275328874588013
+        },
+        {
+          "text": "Bannker Cicke",
+          "confidence": 0.7659527361392975
+        },
+        {
+          "text": "[F S0]",
+          "confidence": 0.5167440303734371
+        }
+      ],
+      "elapsed": [
+        0.09779000282287598,
+        0.005086183547973633,
+        0.13651776313781738
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/031.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/031.processed.png",
+      "text": "YOA\nmrere\nBEGINS\nH7CA90A",
+      "lines": [
+        {
+          "text": "YOA",
+          "confidence": 0.6278457790613174
+        },
+        {
+          "text": "mrere",
+          "confidence": 0.6159622122844061
+        },
+        {
+          "text": "BEGINS",
+          "confidence": 0.8055645738329206
+        },
+        {
+          "text": "H7CA90A",
+          "confidence": 0.552713681012392
+        }
+      ],
+      "elapsed": [
+        0.08979320526123047,
+        0.0075969696044921875,
+        0.1314258575439453
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/032.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/032.processed.png",
+      "text": "20T Kore Advertising Awards\nKorenFederoubtof\n2013Korea Advertising Awards\nhd.ertisigAacetos",
+      "lines": [
+        {
+          "text": "20T Kore Advertising Awards",
+          "confidence": 0.7083799892238208
+        },
+        {
+          "text": "KorenFederoubtof",
+          "confidence": 0.6373009646640104
+        },
+        {
+          "text": "2013Korea Advertising Awards",
+          "confidence": 0.8625935953238915
+        },
+        {
+          "text": "hd.ertisigAacetos",
+          "confidence": 0.608214302195443
+        }
+      ],
+      "elapsed": [
+        0.20210886001586914,
+        0.0038509368896484375,
+        0.12846612930297852
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/033.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/033.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/034.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/034.processed.png",
+      "text": "SiverTak",
+      "lines": [
+        {
+          "text": "SiverTak",
+          "confidence": 0.6002744634946188
+        }
+      ],
+      "elapsed": [
+        0.12070202827453613,
+        0.0028159618377685547,
+        0.12740421295166016
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/035.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/035.processed.png",
+      "text": "号叫三McDonald'sKorea Mom's Career Day\nm.\n10:10\n2012.10.10\n2012.10.10\n10:06_0200-0400",
+      "lines": [
+        {
+          "text": "号叫三McDonald'sKorea Mom's Career Day",
+          "confidence": 0.8506765075855784
+        },
+        {
+          "text": "m.",
+          "confidence": 0.5081087946891785
+        },
+        {
+          "text": "10:10",
+          "confidence": 0.5695112148920695
+        },
+        {
+          "text": "2012.10.10",
+          "confidence": 0.8792100386186079
+        },
+        {
+          "text": "2012.10.10",
+          "confidence": 0.8157974860884927
+        },
+        {
+          "text": "10:06_0200-0400",
+          "confidence": 0.7235731035470963
+        }
+      ],
+      "elapsed": [
+        0.08917498588562012,
+        0.0071108341217041016,
+        0.25831103324890137
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/036.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/036.processed.png",
+      "text": "201aKareaArvertungAwards\norraFederefone\n2013KoreaAdvertisingAwards",
+      "lines": [
+        {
+          "text": "201aKareaArvertungAwards",
+          "confidence": 0.7945493823289871
+        },
+        {
+          "text": "orraFederefone",
+          "confidence": 0.5701383968194326
+        },
+        {
+          "text": "2013KoreaAdvertisingAwards",
+          "confidence": 0.8604087288732882
+        }
+      ],
+      "elapsed": [
+        0.2209949493408203,
+        0.0031392574310302734,
+        0.1406850814819336
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/037.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/037.processed.png",
+      "text": "21210号h\nNa:",
+      "lines": [
+        {
+          "text": "21210号h",
+          "confidence": 0.6043646931648254
+        },
+        {
+          "text": "Na:",
+          "confidence": 0.5007046461105347
+        }
+      ],
+      "elapsed": [
+        0.09109997749328613,
+        0.02580714225769043,
+        0.8329625129699707
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/038.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/038.processed.png",
+      "text": "《HloT吉）\nB2片~1010\nuNe:EocellerceinFghtKOREANAR",
+      "lines": [
+        {
+          "text": "《HloT吉）",
+          "confidence": 0.5090911211445928
+        },
+        {
+          "text": "B2片~1010",
+          "confidence": 0.5198942530486319
+        },
+        {
+          "text": "uNe:EocellerceinFghtKOREANAR",
+          "confidence": 0.7208637518101725
+        }
+      ],
+      "elapsed": [
+        0.10311698913574219,
+        0.011356353759765625,
+        0.47771263122558594
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/039.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/039.processed.png",
+      "text": "zh11Korea Adertsingwards\nKartoFedertfiotof\n2013Korea Adverlusiny Awards\nAcherngAsotn",
+      "lines": [
+        {
+          "text": "zh11Korea Adertsingwards",
+          "confidence": 0.6684047555923462
+        },
+        {
+          "text": "KartoFedertfiotof",
+          "confidence": 0.6429271996021271
+        },
+        {
+          "text": "2013Korea Adverlusiny Awards",
+          "confidence": 0.8234246013493374
+        },
+        {
+          "text": "AcherngAsotn",
+          "confidence": 0.5369051603170542
+        }
+      ],
+      "elapsed": [
+        0.18331599235534668,
+        0.002466917037963867,
+        0.1528940200805664
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/040.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/040.processed.png",
+      "text": "etsLookUp",
+      "lines": [
+        {
+          "text": "etsLookUp",
+          "confidence": 0.6860918283462525
+        }
+      ],
+      "elapsed": [
+        0.12830209732055664,
+        0.0028209686279296875,
+        0.24393868446350098
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/041.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/041.processed.png",
+      "text": "0-0",
+      "lines": [
+        {
+          "text": "0-0",
+          "confidence": 0.6093568056821823
+        }
+      ],
+      "elapsed": [
+        0.10061979293823242,
+        0.009448051452636719,
+        0.16997385025024414
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/042.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/042.processed.png",
+      "text": "SHAREPAD",
+      "lines": [
+        {
+          "text": "SHAREPAD",
+          "confidence": 0.7655539049042596
+        }
+      ],
+      "elapsed": [
+        0.12062835693359375,
+        0.0029408931732177734,
+        0.266826868057251
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/043.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/043.processed.png",
+      "text": "2813Krea Adverlising Avartis\nKoreaFedrclono\n23Korea Advertismg Awards\nhdverisgMeocntan",
+      "lines": [
+        {
+          "text": "2813Krea Adverlising Avartis",
+          "confidence": 0.6905528368621037
+        },
+        {
+          "text": "KoreaFedrclono",
+          "confidence": 0.6041136960188548
+        },
+        {
+          "text": "23Korea Advertismg Awards",
+          "confidence": 0.8734734333478488
+        },
+        {
+          "text": "hdverisgMeocntan",
+          "confidence": 0.5419316756374696
+        }
+      ],
+      "elapsed": [
+        0.22517824172973633,
+        0.003103017807006836,
+        0.16029119491577148
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/044.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/044.processed.png",
+      "text": "StrgLininsLitheLine\nCARCurling",
+      "lines": [
+        {
+          "text": "StrgLininsLitheLine",
+          "confidence": 0.6769449576735497
+        },
+        {
+          "text": "CARCurling",
+          "confidence": 0.8681412122466348
+        }
+      ],
+      "elapsed": [
+        0.11895298957824707,
+        0.0039141178131103516,
+        0.2597954273223877
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/045.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/045.processed.png",
+      "text": "HOSH",
+      "lines": [
+        {
+          "text": "HOSH",
+          "confidence": 0.5300425171852112
+        }
+      ],
+      "elapsed": [
+        0.11598491668701172,
+        0.003737211227416992,
+        0.18858623504638672
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/046.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/046.processed.png",
+      "text": "/(SmartDots)",
+      "lines": [
+        {
+          "text": "/(SmartDots)",
+          "confidence": 0.8139561873215896
+        }
+      ],
+      "elapsed": [
+        0.08076000213623047,
+        0.0021409988403320312,
+        0.19144916534423828
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/047.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/047.processed.png",
+      "text": "2013Korea Aivertisinu Awards\nCarelTrdereronar\n2013Korea AdvertisinnAwards\nNderingAnotnterm",
+      "lines": [
+        {
+          "text": "2013Korea Aivertisinu Awards",
+          "confidence": 0.7956604556790714
+        },
+        {
+          "text": "CarelTrdereronar",
+          "confidence": 0.6117880423279369
+        },
+        {
+          "text": "2013Korea AdvertisinnAwards",
+          "confidence": 0.8745390421577862
+        },
+        {
+          "text": "NderingAnotnterm",
+          "confidence": 0.6210695242180544
+        }
+      ],
+      "elapsed": [
+        0.19595599174499512,
+        0.0025610923767089844,
+        0.13655924797058105
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/048.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/048.processed.png",
+      "text": "SML(StickyMonsterLab)DonationToy",
+      "lines": [
+        {
+          "text": "SML(StickyMonsterLab)DonationToy",
+          "confidence": 0.8779434182427146
+        }
+      ],
+      "elapsed": [
+        0.09714198112487793,
+        0.0012700557708740234,
+        0.0663762092590332
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/049.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/049.processed.png",
+      "text": "SmartDots）",
+      "lines": [
+        {
+          "text": "SmartDots）",
+          "confidence": 0.7691178321838379
+        }
+      ],
+      "elapsed": [
+        0.12745904922485352,
+        0.002168893814086914,
+        0.14127182960510254
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/050.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/050.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/051.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/051.processed.png",
+      "text": "2013Korea AdvertsingAwurds\nKoresifecinotionel\n201aKorea Advertising Awards",
+      "lines": [
+        {
+          "text": "2013Korea AdvertsingAwurds",
+          "confidence": 0.8964055092246445
+        },
+        {
+          "text": "Koresifecinotionel",
+          "confidence": 0.5756654629581853
+        },
+        {
+          "text": "201aKorea Advertising Awards",
+          "confidence": 0.8283045816010443
+        }
+      ],
+      "elapsed": [
+        0.18936967849731445,
+        0.004825115203857422,
+        0.17197322845458984
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/052.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/052.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/053.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/053.processed.png",
+      "text": "TMTOGAG",
+      "lines": [
+        {
+          "text": "TMTOGAG",
+          "confidence": 0.5642355941236019
+        }
+      ],
+      "elapsed": [
+        0.07751703262329102,
+        0.004197120666503906,
+        0.11232614517211914
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/054.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/054.processed.png",
+      "text": "BEGIN\nBEGINS",
+      "lines": [
+        {
+          "text": "BEGIN",
+          "confidence": 0.8100143373012543
+        },
+        {
+          "text": "BEGINS",
+          "confidence": 0.8520119190216064
+        }
+      ],
+      "elapsed": [
+        0.08395195007324219,
+        0.0043849945068359375,
+        0.11958599090576172
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/055.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/055.processed.png",
+      "text": "2013Korea Advertising Awards\nGmtirrroal\n2013Korea AdvertisingAwards",
+      "lines": [
+        {
+          "text": "2013Korea Advertising Awards",
+          "confidence": 0.8610729749860435
+        },
+        {
+          "text": "Gmtirrroal",
+          "confidence": 0.5312152884223245
+        },
+        {
+          "text": "2013Korea AdvertisingAwards",
+          "confidence": 0.8697194148387227
+        }
+      ],
+      "elapsed": [
+        0.17976903915405273,
+        0.0024187564849853516,
+        0.13064312934875488
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/056.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/056.processed.png",
+      "text": "TE\n2000",
+      "lines": [
+        {
+          "text": "TE",
+          "confidence": 0.5142255624135336
+        },
+        {
+          "text": "2000",
+          "confidence": 0.5247928977012635
+        }
+      ],
+      "elapsed": [
+        0.09233212471008301,
+        0.0035321712493896484,
+        0.1503908634185791
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/057.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/057.processed.png",
+      "text": "大olehKT号）\nBusinessoasis inthedesert",
+      "lines": [
+        {
+          "text": "大olehKT号）",
+          "confidence": 0.6479590564966202
+        },
+        {
+          "text": "Businessoasis inthedesert",
+          "confidence": 0.9024178729607508
+        }
+      ],
+      "elapsed": [
+        0.09735584259033203,
+        0.0035810470581054688,
+        0.24749016761779785
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/058.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/058.processed.png",
+      "text": "FmSmcrtWhyDouR\nI'mSmartWhiyCion\nfmSmarWtyCUr?\ntutt",
+      "lines": [
+        {
+          "text": "FmSmcrtWhyDouR",
+          "confidence": 0.588442196448644
+        },
+        {
+          "text": "I'mSmartWhiyCion",
+          "confidence": 0.6120938597356572
+        },
+        {
+          "text": "fmSmarWtyCUr?",
+          "confidence": 0.6020904183387756
+        },
+        {
+          "text": "tutt",
+          "confidence": 0.528288972377777
+        }
+      ],
+      "elapsed": [
+        0.13832497596740723,
+        0.003505706787109375,
+        0.19075369834899902
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/059.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/059.processed.png",
+      "text": "2013Korea Advertising Awards\norveiFecertoo\n2013Korea Adventising Awards",
+      "lines": [
+        {
+          "text": "2013Korea Advertising Awards",
+          "confidence": 0.8734210380192461
+        },
+        {
+          "text": "orveiFecertoo",
+          "confidence": 0.5059857581342969
+        },
+        {
+          "text": "2013Korea Adventising Awards",
+          "confidence": 0.8576528532751675
+        }
+      ],
+      "elapsed": [
+        0.18273472785949707,
+        0.0031900405883789062,
+        0.11806106567382812
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/060.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/060.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/061.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/061.processed.png",
+      "text": "竞EJOBKOREA\n空号JOBKOREA\n豆号JOBKOREA\n号JOBKORE\n空EJOBKOREA",
+      "lines": [
+        {
+          "text": "竞EJOBKOREA",
+          "confidence": 0.7807006714018908
+        },
+        {
+          "text": "空号JOBKOREA",
+          "confidence": 0.7423573061823845
+        },
+        {
+          "text": "豆号JOBKOREA",
+          "confidence": 0.7689065716483376
+        },
+        {
+          "text": "号JOBKORE",
+          "confidence": 0.8376963469717238
+        },
+        {
+          "text": "空EJOBKOREA",
+          "confidence": 0.7097420286048542
+        }
+      ],
+      "elapsed": [
+        0.09661412239074707,
+        0.006376981735229492,
+        0.24113225936889648
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/062.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/062.processed.png",
+      "text": "L刚三 “Hold a Life",
+      "lines": [
+        {
+          "text": "L刚三 “Hold a Life",
+          "confidence": 0.7878899784649119
+        }
+      ],
+      "elapsed": [
+        0.05948781967163086,
+        0.002187013626098633,
+        0.13614320755004883
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/063.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/063.processed.png",
+      "text": "432\n312718\nT9000\nLG G2\nHSONS\nTV学是\nt/含是/m-Box/Fous/Smple\nTBWA KOREA\n804 715\nBrended Fim\nIem Smert Wy DSUR?\nXN IYteR RR\nConnocld Wincbw Project\nReyMix\nA Nighimere n the Corner\nTBWA KOREA\nTBWA KOREA\n311 718\nOEKT)\nA-P\nAHPSong\n7R\nKISSFM\n1012110\nKonee, Lend d Quattro\n214\n204715\ncom315\n52/75\n804 715\ncom315\n804 715\n84 715\ncom315\nM915\n204 715\ncom315\nX75",
+      "lines": [
+        {
+          "text": "432",
+          "confidence": 0.5623691231012344
+        },
+        {
+          "text": "312718",
+          "confidence": 0.5382181831768581
+        },
+        {
+          "text": "T9000",
+          "confidence": 0.7069616218407949
+        },
+        {
+          "text": "LG G2",
+          "confidence": 0.7197574277718862
+        },
+        {
+          "text": "HSONS",
+          "confidence": 0.5164161870876948
+        },
+        {
+          "text": "TV学是",
+          "confidence": 0.6704383850097656
+        },
+        {
+          "text": "t/含是/m-Box/Fous/Smple",
+          "confidence": 0.6919801919297739
+        },
+        {
+          "text": "TBWA KOREA",
+          "confidence": 0.8116656975312666
+        },
+        {
+          "text": "804 715",
+          "confidence": 0.5766644068062305
+        },
+        {
+          "text": "Brended Fim",
+          "confidence": 0.6937980972803556
+        },
+        {
+          "text": "Iem Smert Wy DSUR?",
+          "confidence": 0.7849332878464147
+        },
+        {
+          "text": "XN IYteR RR",
+          "confidence": 0.6098360059161981
+        },
+        {
+          "text": "Connocld Wincbw Project",
+          "confidence": 0.7590660512447357
+        },
+        {
+          "text": "ReyMix",
+          "confidence": 0.6986704639026097
+        },
+        {
+          "text": "A Nighimere n the Corner",
+          "confidence": 0.8038241910934448
+        },
+        {
+          "text": "TBWA KOREA",
+          "confidence": 0.8518092469735579
+        },
+        {
+          "text": "TBWA KOREA",
+          "confidence": 0.8260792710564353
+        },
+        {
+          "text": "311 718",
+          "confidence": 0.5651418454945087
+        },
+        {
+          "text": "OEKT)",
+          "confidence": 0.7140776912371317
+        },
+        {
+          "text": "A-P",
+          "confidence": 0.6537841111421585
+        },
+        {
+          "text": "AHPSong",
+          "confidence": 0.7389135733246803
+        },
+        {
+          "text": "7R",
+          "confidence": 0.5017474293708801
+        },
+        {
+          "text": "KISSFM",
+          "confidence": 0.6016737818717957
+        },
+        {
+          "text": "1012110",
+          "confidence": 0.5883855149149895
+        },
+        {
+          "text": "Konee, Lend d Quattro",
+          "confidence": 0.7802711375381636
+        },
+        {
+          "text": "214",
+          "confidence": 0.5917974561452866
+        },
+        {
+          "text": "204715",
+          "confidence": 0.5908315054007939
+        },
+        {
+          "text": "com315",
+          "confidence": 0.7700614673750741
+        },
+        {
+          "text": "52/75",
+          "confidence": 0.5126441369454066
+        },
+        {
+          "text": "804 715",
+          "confidence": 0.6176924966275692
+        },
+        {
+          "text": "com315",
+          "confidence": 0.7128689799989972
+        },
+        {
+          "text": "804 715",
+          "confidence": 0.6402886360883713
+        },
+        {
+          "text": "84 715",
+          "confidence": 0.5554648297173637
+        },
+        {
+          "text": "com315",
+          "confidence": 0.7271044254302979
+        },
+        {
+          "text": "M915",
+          "confidence": 0.5270792126655579
+        },
+        {
+          "text": "204 715",
+          "confidence": 0.5762905552983284
+        },
+        {
+          "text": "com315",
+          "confidence": 0.7088049650192261
+        },
+        {
+          "text": "X75",
+          "confidence": 0.5874922573566437
+        }
+      ],
+      "elapsed": [
+        0.1638190746307373,
+        0.14151263236999512,
+        1.564063549041748
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/064.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/064.processed.png",
+      "text": "Drty Snoes\n712PR\n47227122\nAround the Wortd in 80 Seconds\nby Korean Ar\nBe theFaren\nBe the Pargnts\nDying Face\n712PR\nCer uring\n719FR\nChell Woridwide Fetbranding\nIdeae thet Move\nLTE WARP\nFages Press/\n()\nCARD\nBMW\nTHINK TWICE\nCornedted Wndow Prdgct\n2212\nSKm24\nTA 50\n3121 71\nMom to Mom\n2221\nBe te Pargrts\nMFR+D\nWake up wth McMoning\nGol Lverpool by\n7 MUSIC\nB7MUSC\n8075\nCEWSS\n712PR\nTBWA KOREA\n25\nTBWA KOFEA\nLTE\nSK前2\nhowin\nFedtaranth\nF203\nShare Fad\n(487/图\nWake up wth McMoning\nMFR+D\n8075\n50-88\nMAKNWHOOFEE田\nCIA  (SM)\nSticky Morster Leb\nDoneton Toy\n(Sivg taI)\nLat's Look Up\n4020/3",
+      "lines": [
+        {
+          "text": "Drty Snoes",
+          "confidence": 0.78984201947848
+        },
+        {
+          "text": "712PR",
+          "confidence": 0.6560333569844564
+        },
+        {
+          "text": "47227122",
+          "confidence": 0.6696942448616028
+        },
+        {
+          "text": "Around the Wortd in 80 Seconds",
+          "confidence": 0.854259971649416
+        },
+        {
+          "text": "by Korean Ar",
+          "confidence": 0.838998909507479
+        },
+        {
+          "text": "Be theFaren",
+          "confidence": 0.7132185474038124
+        },
+        {
+          "text": "Be the Pargnts",
+          "confidence": 0.7939292229712009
+        },
+        {
+          "text": "Dying Face",
+          "confidence": 0.8091741700967153
+        },
+        {
+          "text": "712PR",
+          "confidence": 0.6983311971028646
+        },
+        {
+          "text": "Cer uring",
+          "confidence": 0.6978259953585538
+        },
+        {
+          "text": "719FR",
+          "confidence": 0.625737284620603
+        },
+        {
+          "text": "Chell Woridwide Fetbranding",
+          "confidence": 0.8241951082433973
+        },
+        {
+          "text": "Ideae thet Move",
+          "confidence": 0.7261058650910854
+        },
+        {
+          "text": "LTE WARP",
+          "confidence": 0.8843805260128446
+        },
+        {
+          "text": "Fages Press/",
+          "confidence": 0.616369231389119
+        },
+        {
+          "text": "()",
+          "confidence": 0.6330259243647257
+        },
+        {
+          "text": "CARD",
+          "confidence": 0.5744334995746613
+        },
+        {
+          "text": "BMW",
+          "confidence": 0.7415982782840729
+        },
+        {
+          "text": "THINK TWICE",
+          "confidence": 0.8414641370375952
+        },
+        {
+          "text": "Cornedted Wndow Prdgct",
+          "confidence": 0.8447623439133167
+        },
+        {
+          "text": "2212",
+          "confidence": 0.5996988415718079
+        },
+        {
+          "text": "SKm24",
+          "confidence": 0.5369746362169584
+        },
+        {
+          "text": "TA 50",
+          "confidence": 0.5650519082943598
+        },
+        {
+          "text": "3121 71",
+          "confidence": 0.5027050450444221
+        },
+        {
+          "text": "Mom to Mom",
+          "confidence": 0.789535023949363
+        },
+        {
+          "text": "2221",
+          "confidence": 0.5971574187278748
+        },
+        {
+          "text": "Be te Pargrts",
+          "confidence": 0.7748149832089742
+        },
+        {
+          "text": "MFR+D",
+          "confidence": 0.7271847526232401
+        },
+        {
+          "text": "Wake up wth McMoning",
+          "confidence": 0.8864065151322972
+        },
+        {
+          "text": "Gol Lverpool by",
+          "confidence": 0.7862145602703094
+        },
+        {
+          "text": "7 MUSIC",
+          "confidence": 0.6026035323739052
+        },
+        {
+          "text": "B7MUSC",
+          "confidence": 0.6034077831677028
+        },
+        {
+          "text": "8075",
+          "confidence": 0.5488104104995728
+        },
+        {
+          "text": "CEWSS",
+          "confidence": 0.7881723940372467
+        },
+        {
+          "text": "712PR",
+          "confidence": 0.5165609021981558
+        },
+        {
+          "text": "TBWA KOREA",
+          "confidence": 0.8195298747582869
+        },
+        {
+          "text": "25",
+          "confidence": 0.5304239789644877
+        },
+        {
+          "text": "TBWA KOFEA",
+          "confidence": 0.8642808415672996
+        },
+        {
+          "text": "LTE",
+          "confidence": 0.6869897395372391
+        },
+        {
+          "text": "SK前2",
+          "confidence": 0.5771356523036957
+        },
+        {
+          "text": "howin",
+          "confidence": 0.6411597579717636
+        },
+        {
+          "text": "Fedtaranth",
+          "confidence": 0.7234348112886603
+        },
+        {
+          "text": "F203",
+          "confidence": 0.544394239783287
+        },
+        {
+          "text": "Share Fad",
+          "confidence": 0.7401176203380931
+        },
+        {
+          "text": "(487/图",
+          "confidence": 0.5243935606309346
+        },
+        {
+          "text": "Wake up wth McMoning",
+          "confidence": 0.8864065151322972
+        },
+        {
+          "text": "MFR+D",
+          "confidence": 0.6762808014949163
+        },
+        {
+          "text": "8075",
+          "confidence": 0.5484688878059387
+        },
+        {
+          "text": "50-88",
+          "confidence": 0.5268577436606089
+        },
+        {
+          "text": "MAKNWHOOFEE田",
+          "confidence": 0.7462966121160067
+        },
+        {
+          "text": "CIA  (SM)",
+          "confidence": 0.518806628882885
+        },
+        {
+          "text": "Sticky Morster Leb",
+          "confidence": 0.7736118843680934
+        },
+        {
+          "text": "Doneton Toy",
+          "confidence": 0.71708505658003
+        },
+        {
+          "text": "(Sivg taI)",
+          "confidence": 0.5563953383402391
+        },
+        {
+          "text": "Lat's Look Up",
+          "confidence": 0.9066537459691365
+        },
+        {
+          "text": "4020/3",
+          "confidence": 0.5028779059648514
+        }
+      ],
+      "elapsed": [
+        0.1527271270751953,
+        0.12050247192382812,
+        1.6306569576263428
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/065.jpg",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/065.processed.png",
+      "text": "20th 2013Korea Advertising Awards",
+      "lines": [
+        {
+          "text": "20th 2013Korea Advertising Awards",
+          "confidence": 0.9102703701047337
+        }
+      ],
+      "elapsed": [
+        0.16484403610229492,
+        0.0012009143829345703,
+        0.0566408634185791
+      ]
+    },
+    {
+      "path": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/066.png",
+      "processedPath": "/Users/sb/Downloads/codex/archive/raw/ocr_images/opad-2013-overview/066.processed.png",
+      "text": "",
+      "lines": [],
+      "elapsed": null
+    }
+  ]
+}

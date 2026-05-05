@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-03-24T12:35:21.733296+00:00",
+  "targets": [
+    {
+      "id": "opad-2019-overview",
+      "year": 2019,
+      "imageCount": 14,
+      "jsonOutput": "archive/ocr/opad-2019-overview.json",
+      "textOutput": "archive/ocr/opad-2019-overview.txt"
+    },
+    {
+      "id": "adco-2017-overview",
+      "year": 2017,
+      "imageCount": 18,
+      "jsonOutput": "archive/ocr/adco-2017-overview.json",
+      "textOutput": "archive/ocr/adco-2017-overview.txt"
+    },
+    {
+      "id": "opad-2015-overview",
+      "year": 2015,
+      "imageCount": 38,
+      "jsonOutput": "archive/ocr/opad-2015-overview.json",
+      "textOutput": "archive/ocr/opad-2015-overview.txt"
+    },
+    {
+      "id": "opad-2013-overview",
+      "year": 2013,
+      "imageCount": 66,
+      "jsonOutput": "archive/ocr/opad-2013-overview.json",
+      "textOutput": "archive/ocr/opad-2013-overview.txt"
+    }
+  ]
+}

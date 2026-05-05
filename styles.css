@@ -420,7 +420,7 @@ h1 {
   position: relative;
   width: 172px;
   height: 150px;
-  margin-top: 190px;
+  margin-top: 146px;
   border: 5px solid var(--brownie);
   border-top: 0;
   border-radius: 0 0 46px 46px;
@@ -488,7 +488,7 @@ h1 {
   position: absolute;
   left: 28px;
   right: 28px;
-  top: 86px;
+  top: 72px;
   display: grid;
   justify-items: center;
   gap: 12px;
@@ -499,21 +499,17 @@ h1 {
 
 .copy-text {
   margin: 0;
-  max-height: 2.38em;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
   color: var(--brownie);
   font-family: "Nanum Myeongjo", serif;
-  font-size: clamp(1.55rem, 7.2vw, 2.1rem);
+  font-size: clamp(1.72rem, 7.6vw, 2.18rem);
   font-weight: 800;
-  line-height: 1.19;
+  line-height: 1.16;
+  white-space: pre-line;
   word-break: keep-all;
 }
 
 .copy-text.is-long {
-  font-size: clamp(1.28rem, 6vw, 1.72rem);
+  font-size: clamp(1.34rem, 6vw, 1.76rem);
 }
 
 .copy-meta {
@@ -524,22 +520,47 @@ h1 {
   line-height: 1.35;
 }
 
-.more-link {
+.reveal-actions {
   position: absolute;
-  right: 20px;
-  bottom: calc(env(safe-area-inset-bottom) + 17px);
+  left: 50%;
+  bottom: calc(env(safe-area-inset-bottom) + 54px);
+  transform: translateX(-50%);
+  width: min(230px, calc(100% - 72px));
+  display: grid;
+  gap: 10px;
+  justify-items: stretch;
+}
+
+.reveal-action {
+  min-height: 38px;
+  border: 2px solid var(--brownie);
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
   color: var(--brownie);
-  font-size: 0.64rem;
+  cursor: pointer;
+  font-size: 0.78rem;
   font-weight: 900;
   text-decoration: none;
 }
 
-.more-link.is-disabled {
+.detail-link {
+  background: var(--brownie);
+  color: var(--cream);
+}
+
+.again-button {
+  background: var(--cream);
+}
+
+.detail-link.is-disabled {
   pointer-events: none;
   opacity: 0.4;
 }
 
-.more-link:focus-visible {
+.reveal-action:focus-visible {
   outline: 2px solid var(--brownie);
   outline-offset: 4px;
 }

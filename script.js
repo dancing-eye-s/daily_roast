@@ -123,8 +123,77 @@ function getDisplayCopy(item) {
   return copy;
 }
 
+function getParticle(token) {
+  const match = token.match(/(에게도|에게|에도|에서|으로|부터|까지|처럼|보다|엔|에|은|는|이|가|도)$/);
+  return match ? match[1] : "";
+}
+
+function getSemanticLineBreak(copy) {
+  const preservedLines = copy
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (preservedLines.length > 1) {
+    return preservedLines.join("\n");
+  }
+
+  const commaParts = copy
+    .split(/[,，]/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (
+    commaParts.length === 2 &&
+    commaParts.every((part) => part.replace(/\s+/g, "").length >= 4)
+  ) {
+    return commaParts.join("\n");
+  }
+
+  const tokens = copy.split(" ").filter(Boolean);
+  const firstParticle = getParticle(tokens[0] || "");
+
+  if (!firstParticle || tokens.length < 4) {
+    return "";
+  }
+
+  const splitIndex = tokens.findIndex((token, index) => {
+    if (index < 2 || index > tokens.length - 2) {
+      return false;
+    }
+
+    return getParticle(token) === firstParticle;
+  });
+
+  if (splitIndex === -1) {
+    return "";
+  }
+
+  const firstLine = tokens.slice(0, splitIndex).join(" ");
+  const secondLine = tokens.slice(splitIndex).join(" ");
+  const firstTokenCount = splitIndex;
+  const secondTokenCount = tokens.length - splitIndex;
+
+  if (
+    Math.abs(firstTokenCount - secondTokenCount) > 2 ||
+    firstLine.replace(/\s+/g, "").length < 4 ||
+    secondLine.replace(/\s+/g, "").length < 4 ||
+    firstLine.length > 18 ||
+    secondLine.length > 22
+  ) {
+    return "";
+  }
+
+  return `${firstLine}\n${secondLine}`;
+}
+
 function formatCopy(copy) {
-  const normalized = copy.replace(/\s+/g, " ").trim();
+  const normalized = copy.replace(/[ \t]+/g, " ").trim();
+  const semanticBreak = getSemanticLineBreak(normalized);
+
+  if (semanticBreak) {
+    return semanticBreak;
+  }
 
   if (normalized.length <= 15) {
     return normalized;

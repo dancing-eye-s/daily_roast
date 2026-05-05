@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo \"Static site ready\""
+    "build": "rm -rf dist && mkdir -p dist/data && cp index.html styles.css script.js dist/ && cp data/*.js dist/data/"
   }
 }

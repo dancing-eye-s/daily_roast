@@ -9,79 +9,82 @@
     <title>Daily Roast</title>
     <meta
       name="description"
-      content="대한민국 광고대상 수상작 메인 카피를 매일 커피처럼 따라 보는 모바일 전용 아카이브"
+      content="광고 카피가 담긴 커피 캡슐을 골라 매일 한 잔처럼 내려보는 모바일 아카이브"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&family=Noto+Sans+KR:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="app-shell">
-      <section class="hero">
-        <p class="eyebrow">Daily Roast</p>
-        <h1>오늘의 카피는?</h1>
-        <p class="intro">
-          주전자를 기울여 오늘의 카피를 내려보세요.
-        </p>
-      </section>
+    <main class="app-shell" data-state="select">
+      <header class="app-header" aria-label="Daily Roast">
+        <p class="brand">Daily Roast</p>
+        <p class="counter" id="status-count"></p>
+      </header>
 
-      <section class="stage">
-        <div class="cookie-area">
-          <button
-            class="coffee-pot"
-            id="fortune-cookie"
-            type="button"
-            aria-label="커피 주전자로 오늘의 광고 카피 내리기"
-            aria-controls="fortune-note"
-            aria-expanded="false"
-          >
-            <span class="coffee-shadow"></span>
-            <span class="pot-body"></span>
-            <span class="pot-lid"></span>
-            <span class="pot-handle"></span>
-            <span class="pot-spout"></span>
-            <span class="coffee-stream"></span>
-            <span class="coffee-cup"></span>
-            <span class="cup-coffee"></span>
-            <span class="steam steam-one"></span>
-            <span class="steam steam-two"></span>
-            <span class="steam steam-three"></span>
-            <span class="steam-copy" id="cookie-slip"></span>
-            <span class="steam-brand" id="steam-brand"></span>
-          </button>
-
-          <article class="fortune-note" id="fortune-note" aria-live="polite">
-            <p class="note-copy" id="note-copy">
-              주전자를 눌러 오늘의 광고 카피를 내려보세요.
-            </p>
-            <p class="note-meta" id="note-meta"></p>
-            <div class="note-actions">
-              <a
-                class="note-link is-disabled"
-                id="note-link"
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-                aria-disabled="true"
-              >
-                더보기
-              </a>
+      <section class="stage" aria-live="polite">
+        <div class="stage-track">
+          <section class="scene scene-drawer" aria-label="커피 캡슐 선택">
+            <div class="scene-title">
+              <p class="kicker">Pick a capsule</p>
+              <h1>오늘의 카피를 골라요</h1>
             </div>
-          </article>
-        </div>
-      </section>
 
-      <section class="archive-status">
-        <p class="status-title">아카이브 상태</p>
-        <p class="status-copy">
-          대한민국 광고대상 역대 수상작과 카피피디아의 '광고 카피 모음'이
-          수록되어 있습니다.
-        </p>
-        <p class="status-count" id="status-count"></p>
+            <div class="capsule-drawer">
+              <div class="drawer-handle"></div>
+              <div class="capsule-grid" id="capsule-grid"></div>
+            </div>
+          </section>
+
+          <section class="scene scene-machine" aria-label="커피 추출">
+            <div class="machine-set">
+              <div class="machine">
+                <div class="machine-top"></div>
+                <div class="machine-slot">
+                  <span class="loaded-capsule" id="loaded-capsule"></span>
+                </div>
+                <div class="machine-face"></div>
+                <div class="machine-spout"></div>
+                <div class="machine-stream"></div>
+              </div>
+              <div class="brew-cup">
+                <span class="brew-fill"></span>
+              </div>
+              <p class="brew-caption" id="brew-caption">캡슐을 장착하는 중</p>
+            </div>
+          </section>
+
+          <section class="scene scene-reveal" aria-label="오늘의 광고 카피">
+            <div class="reveal-cup">
+              <span class="reveal-coffee"></span>
+              <span class="smoke smoke-one"></span>
+              <span class="smoke smoke-two"></span>
+              <span class="smoke smoke-three"></span>
+            </div>
+
+            <article class="copy-card">
+              <p class="copy-text" id="copy-text">
+                캡슐을 고르면 오늘의 카피가 연기처럼 떠오릅니다.
+              </p>
+              <p class="copy-meta" id="copy-meta"></p>
+            </article>
+
+            <a
+              class="more-link is-disabled"
+              id="note-link"
+              href="#"
+              target="_blank"
+              rel="noreferrer"
+              aria-disabled="true"
+            >
+              더보기
+            </a>
+          </section>
+        </div>
       </section>
     </main>
 

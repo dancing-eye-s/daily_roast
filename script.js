@@ -37,6 +37,14 @@ const capsules = [
   },
 ];
 
+const drawerCapsules = Array.from({ length: 25 }, (_, index) => {
+  const capsule = capsules[index % capsules.length];
+  return {
+    ...capsule,
+    instanceId: `${capsule.id}-${index}`,
+  };
+});
+
 const appShell = document.querySelector(".app-shell");
 const capsuleGrid = document.getElementById("capsule-grid");
 const loadedCapsule = document.getElementById("loaded-capsule");
@@ -119,7 +127,7 @@ function brewCapsule(capsule) {
 }
 
 function renderCapsules() {
-  capsuleGrid.innerHTML = capsules
+  capsuleGrid.innerHTML = drawerCapsules
     .map(
       (capsule) => `
         <button
@@ -131,8 +139,6 @@ function renderCapsules() {
         >
           <span class="capsule-top"></span>
           <span class="capsule-body"></span>
-          <span class="capsule-label">${capsule.label}</span>
-          <span class="capsule-note">${capsule.note}</span>
         </button>
       `,
     )

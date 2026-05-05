@@ -5393,15 +5393,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-194-구글플레이-go-play-googleplay",
+    "id": "copy-194-구글플레이-go-play-google-play",
     "brand": "구글플레이",
     "campaign": "",
-    "copy": "Go play googleplay",
+    "copy": "Go play Google Play",
     "sourceUrl": "https://play.tvcf.co.kr/986819",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-195-카누-호환캡슐-캡슐만-바꿔도-커피가-맛있다",
@@ -10651,15 +10652,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-672-삼성전자-future-ready-samsung-b2b-intergrated-offering",
+    "id": "copy-672-삼성전자-future-ready-samsung-b2b-integrated-offering",
     "brand": "삼성전자",
     "campaign": "",
-    "copy": "Future-Ready. SAMSUNG B2B Intergrated Offering.",
+    "copy": "Future-Ready. SAMSUNG B2B Integrated Offering.",
     "sourceUrl": "https://play.tvcf.co.kr/969830",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-673-맥도날드-해피스낵-츄러스-콤보로-즐겨요",
@@ -21112,15 +21114,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-1626-대한체육회-oneteamkorea",
+    "id": "copy-1626-대한체육회-one-team-korea",
     "brand": "대한체육회",
     "campaign": "",
-    "copy": "ONETEAMKOREA",
+    "copy": "ONE TEAM KOREA",
     "sourceUrl": "https://play.tvcf.co.kr/953235",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-1627-네스프레소-더블클릭으로-더-깊고-진하게",
@@ -32926,15 +32929,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-2707-바디프랜드-healthcare-robot-bodyfreind",
+    "id": "copy-2707-바디프랜드-healthcare-robot-bodyfriend",
     "brand": "바디프랜드",
     "campaign": "",
-    "copy": "Healthcare Robot bodyfreind",
+    "copy": "Healthcare Robot Bodyfriend",
     "sourceUrl": "https://play.tvcf.co.kr/935344",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-2708-삼성-갤럭시-s24-which-color-fits-you",
@@ -43222,15 +43226,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-3643-2022-항저우-아시안게임-team-korea-브랜드-캠페인-beyondyourself-team-korea",
+    "id": "copy-3643-2022-항저우-아시안게임-team-korea-브랜드-캠페인-beyond-yourself-team-korea",
     "brand": "2022 항저우 아시안게임 Team Korea 브랜드 캠페인",
     "campaign": "",
-    "copy": "beyondyourself, team korea",
+    "copy": "beyond yourself, team korea",
     "sourceUrl": "https://play.tvcf.co.kr/919549",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-3644-포르쉐-타이칸-타이칸-너-좀-멋지다-우리-쭉-같이가자",
@@ -48304,15 +48309,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-4105-쉐보레-트레일블레이저-traiilblazer-traiilblazer",
+    "id": "copy-4105-쉐보레-트레일블레이저-trailblazer-trailblazer",
     "brand": "쉐보레 트레일블레이저",
     "campaign": "",
-    "copy": "TRAIILBLAZER  TRAIILBLAZER.",
+    "copy": "TRAILBLAZER TRAILBLAZER.",
     "sourceUrl": "https://play.tvcf.co.kr/912661",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-4106-ai하틴루-슬립드림-미세한-떨림까지-정밀하게-지켜보고-숙면으로-인도합니다",
@@ -48590,15 +48596,16 @@ window.COPY_ARCHIVE = [
     "collectionLabel": "COPY_ARCHIVE"
   },
   {
-    "id": "copy-4131-포르쉐-타이칸-taycan-soul-elctrified",
+    "id": "copy-4131-포르쉐-타이칸-taycan-soul-electrified",
     "brand": "포르쉐 타이칸",
     "campaign": "",
-    "copy": "taycan, Soul, elctrified.",
+    "copy": "Taycan, Soul, Electrified.",
     "sourceUrl": "https://play.tvcf.co.kr/912826",
     "sourceType": "첨부 엑셀 아카이브",
     "copyStatus": "collected",
     "collection": "general",
-    "collectionLabel": "COPY_ARCHIVE"
+    "collectionLabel": "COPY_ARCHIVE",
+    "spacingAuditNote": "영문 띄어쓰기 또는 표기 보정 완료"
   },
   {
     "id": "copy-4132-우리금융그룹-우리를-위해-우리가-응원한다",

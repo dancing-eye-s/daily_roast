@@ -128,6 +128,40 @@ function getParticle(token) {
   return match ? match[1] : "";
 }
 
+function getReadableLongBreak(copy) {
+  const breakPatterns = [
+    /[^\s]+(와|과)\s+함께\s+/,
+    /\s+덕분에\s+/,
+    /[^\s]+(를|을)\s+위해\s+/,
+    /[^\s]+(를|을)\s+통해\s+/,
+    /[^\s]+(로|으로)\s+인해\s+/,
+    /\s+(라서|이라서)\s+/,
+  ];
+
+  for (const pattern of breakPatterns) {
+    const match = pattern.exec(copy);
+
+    if (!match) {
+      continue;
+    }
+
+    const splitAt = match.index + match[0].length;
+    const firstLine = copy.slice(0, splitAt).trim();
+    const secondLine = copy.slice(splitAt).trim();
+
+    if (
+      firstLine.replace(/\s+/g, "").length >= 10 &&
+      secondLine.replace(/\s+/g, "").length >= 8 &&
+      firstLine.length <= 32 &&
+      secondLine.length <= 34
+    ) {
+      return `${firstLine}\n${secondLine}`;
+    }
+  }
+
+  return "";
+}
+
 function getSemanticLineBreak(copy) {
   const preservedLines = copy
     .split("\n")
@@ -189,6 +223,12 @@ function getSemanticLineBreak(copy) {
 
 function formatCopy(copy) {
   const normalized = copy.replace(/[ \t]+/g, " ").trim();
+  const longBreak = getReadableLongBreak(normalized);
+
+  if (longBreak) {
+    return longBreak;
+  }
+
   const semanticBreak = getSemanticLineBreak(normalized);
 
   if (semanticBreak) {

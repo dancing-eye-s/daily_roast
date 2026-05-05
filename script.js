@@ -1,4 +1,7 @@
-const awardArchive = Array.isArray(window.AD_ARCHIVE) ? window.AD_ARCHIVE : [];
+const COPY_READY_STATUSES = new Set(["verified", "collected"]);
+const awardArchive = Array.isArray(window.AD_ARCHIVE)
+  ? window.AD_ARCHIVE.filter((item) => COPY_READY_STATUSES.has(item.copyStatus))
+  : [];
 const copypediaArchive = Array.isArray(window.COPYPEDIA_ARCHIVE)
   ? window.COPYPEDIA_ARCHIVE
   : [];

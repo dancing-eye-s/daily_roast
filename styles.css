@@ -523,7 +523,7 @@ h1 {
 .reveal-actions {
   position: absolute;
   left: 50%;
-  bottom: calc(env(safe-area-inset-bottom) + 24px);
+  bottom: calc(env(safe-area-inset-bottom) + 34px);
   transform: translateX(-50%);
   width: min(230px, calc(100% - 72px));
   display: grid;

@@ -555,6 +555,11 @@ h1 {
   background: var(--cream);
 }
 
+.save-button {
+  background: var(--caramel);
+  color: var(--cream);
+}
+
 .detail-link.is-disabled {
   pointer-events: none;
   opacity: 0.4;

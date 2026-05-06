@@ -56,6 +56,7 @@ const brewCaption = document.getElementById("brew-caption");
 const copyText = document.getElementById("copy-text");
 const copyMeta = document.getElementById("copy-meta");
 const noteLink = document.getElementById("note-link");
+const saveImageButton = document.getElementById("save-image-button");
 const againButton = document.getElementById("again-button");
 const statusCount = document.getElementById("status-count");
 
@@ -316,6 +317,102 @@ function resetToDrawer() {
   brewCaption.textContent = "캡슐을 장착하는 중";
 }
 
+function getDocumentStyleText() {
+  return Array.from(document.styleSheets)
+    .map((sheet) => {
+      try {
+        return Array.from(sheet.cssRules)
+          .map((rule) => rule.cssText)
+          .join("\n");
+      } catch {
+        return "";
+      }
+    })
+    .join("\n");
+}
+
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.append(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+async function saveScreenAsImage() {
+  if (!saveImageButton) {
+    return;
+  }
+
+  const originalLabel = saveImageButton.textContent;
+  saveImageButton.disabled = true;
+  saveImageButton.textContent = "저장 중";
+
+  try {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    const scale = Math.min(window.devicePixelRatio || 1, 2);
+    const bodyClone = document.body.cloneNode(true);
+    bodyClone.querySelector(".reveal-actions")?.remove();
+    bodyClone.querySelectorAll("script").forEach((script) => script.remove());
+
+    const html = `
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+          <style>
+            html, body {
+              width: ${width}px;
+              height: ${height}px;
+              margin: 0;
+              overflow: hidden;
+            }
+            ${getDocumentStyleText()}
+          </style>
+        </head>
+        <body>${bodyClone.innerHTML}</body>
+      </html>
+    `;
+    const svg = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+        <foreignObject width="100%" height="100%">${html}</foreignObject>
+      </svg>
+    `;
+    const image = new Image();
+    const svgUrl = URL.createObjectURL(
+      new Blob([svg], { type: "image/svg+xml;charset=utf-8" }),
+    );
+
+    await new Promise((resolve, reject) => {
+      image.onload = resolve;
+      image.onerror = reject;
+      image.src = svgUrl;
+    });
+
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(width * scale);
+    canvas.height = Math.round(height * scale);
+    const context = canvas.getContext("2d");
+    context.scale(scale, scale);
+    context.drawImage(image, 0, 0, width, height);
+    URL.revokeObjectURL(svgUrl);
+
+    const blob = await new Promise((resolve) => {
+      canvas.toBlob(resolve, "image/png", 1);
+    });
+
+    if (blob) {
+      const date = new Date().toISOString().slice(0, 10);
+      downloadBlob(blob, `daily-roast-${date}.png`);
+    }
+  } finally {
+    saveImageButton.disabled = false;
+    saveImageButton.textContent = originalLabel;
+  }
+}
+
 function renderCapsules() {
   capsuleGrid.innerHTML = drawerCapsules
     .map(
@@ -348,6 +445,7 @@ capsuleGrid?.addEventListener("click", (event) => {
 });
 
 againButton?.addEventListener("click", resetToDrawer);
+saveImageButton?.addEventListener("click", saveScreenAsImage);
 
 if (statusCount) {
   statusCount.textContent = `${archive.length.toLocaleString("ko-KR")} copies`;

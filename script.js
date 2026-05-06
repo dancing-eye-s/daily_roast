@@ -342,6 +342,175 @@ function downloadBlob(blob, filename) {
   URL.revokeObjectURL(url);
 }
 
+function canvasToPngBlob(canvas) {
+  return new Promise((resolve) => {
+    canvas.toBlob(resolve, "image/png", 1);
+  });
+}
+
+async function createDomSnapshotBlob(width, height, scale) {
+  const bodyClone = document.body.cloneNode(true);
+  bodyClone.querySelector(".reveal-actions")?.remove();
+  bodyClone.querySelectorAll("script").forEach((script) => script.remove());
+
+  const html = `
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <style>
+          html, body {
+            width: ${width}px;
+            height: ${height}px;
+            margin: 0;
+            overflow: hidden;
+          }
+          ${getDocumentStyleText()}
+        </style>
+      </head>
+      <body>${bodyClone.innerHTML}</body>
+    </html>
+  `;
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
+      <foreignObject width="100%" height="100%">${html}</foreignObject>
+    </svg>
+  `;
+  const image = new Image();
+  const svgUrl = URL.createObjectURL(
+    new Blob([svg], { type: "image/svg+xml;charset=utf-8" }),
+  );
+
+  try {
+    await new Promise((resolve, reject) => {
+      image.onload = resolve;
+      image.onerror = reject;
+      image.src = svgUrl;
+    });
+
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(width * scale);
+    canvas.height = Math.round(height * scale);
+    const context = canvas.getContext("2d");
+    context.scale(scale, scale);
+    context.drawImage(image, 0, 0, width, height);
+
+    return canvasToPngBlob(canvas);
+  } finally {
+    URL.revokeObjectURL(svgUrl);
+  }
+}
+
+function drawCenteredText(context, text, x, y, maxWidth, lineHeight) {
+  const lines = text.split("\n").filter(Boolean);
+  lines.forEach((line, index) => {
+    context.fillText(line, x, y + index * lineHeight, maxWidth);
+  });
+  return y + Math.max(lines.length, 1) * lineHeight;
+}
+
+async function createFallbackSnapshotBlob(width, height, scale) {
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.round(width * scale);
+  canvas.height = Math.round(height * scale);
+  const context = canvas.getContext("2d");
+  const appWidth = Math.min(width, 430);
+  const appLeft = (width - appWidth) / 2;
+  const headerHeight = 54;
+  const sceneTop = headerHeight;
+  const sceneHeight = height - headerHeight;
+  const centerX = appLeft + appWidth / 2;
+  const cream = "#f3e9dc";
+  const page = "#e5d7c8";
+  const brownie = "#5e3023";
+  const coffee = "#895737";
+  const caramel = getComputedStyle(appShell).getPropertyValue("--capsule-color").trim() || "#c08552";
+
+  context.scale(scale, scale);
+  context.fillStyle = page;
+  context.fillRect(0, 0, width, height);
+  context.fillStyle = cream;
+  context.fillRect(appLeft, 0, appWidth, height);
+
+  context.strokeStyle = brownie;
+  context.lineWidth = 2;
+  context.beginPath();
+  context.moveTo(appLeft, headerHeight);
+  context.lineTo(appLeft + appWidth, headerHeight);
+  context.stroke();
+
+  context.fillStyle = brownie;
+  context.font = "900 12px sans-serif";
+  context.textAlign = "left";
+  context.textBaseline = "middle";
+  context.fillText("DAILY ROAST", appLeft + 20, 30);
+  context.textAlign = "right";
+  context.fillStyle = coffee;
+  context.fillText(statusCount?.textContent || "", appLeft + appWidth - 20, 30);
+
+  context.strokeStyle = brownie;
+  context.globalAlpha = 0.5;
+  context.strokeRect(appLeft + 18, sceneTop + 18, appWidth - 36, sceneHeight - 36);
+  context.globalAlpha = 1;
+
+  const cupY = sceneTop + sceneHeight / 2 + 72;
+  const cupWidth = 172;
+  const cupHeight = 150;
+  const cupX = centerX - cupWidth / 2;
+
+  context.strokeStyle = brownie;
+  context.lineWidth = 5;
+  context.beginPath();
+  context.moveTo(cupX, cupY);
+  context.lineTo(cupX, cupY + cupHeight - 46);
+  context.quadraticCurveTo(cupX, cupY + cupHeight, cupX + 46, cupY + cupHeight);
+  context.lineTo(cupX + cupWidth - 46, cupY + cupHeight);
+  context.quadraticCurveTo(cupX + cupWidth, cupY + cupHeight, cupX + cupWidth, cupY + cupHeight - 46);
+  context.lineTo(cupX + cupWidth, cupY);
+  context.stroke();
+
+  context.beginPath();
+  context.ellipse(centerX, cupY + 28, 74, 15, 0, 0, Math.PI * 2);
+  context.fillStyle = caramel;
+  context.fill();
+
+  context.beginPath();
+  context.moveTo(cupX + cupWidth + 2, cupY + 30);
+  context.bezierCurveTo(cupX + cupWidth + 58, cupY + 18, cupX + cupWidth + 58, cupY + 86, cupX + cupWidth + 2, cupY + 78);
+  context.stroke();
+
+  context.beginPath();
+  context.moveTo(cupX - 38, cupY + cupHeight + 20);
+  context.lineTo(cupX + cupWidth + 62, cupY + cupHeight + 20);
+  context.stroke();
+
+  context.lineWidth = 4;
+  [centerX - 48, centerX, centerX + 48].forEach((x, index) => {
+    context.beginPath();
+    context.moveTo(x, cupY - 20);
+    context.bezierCurveTo(x - 28, cupY - 64, x + 30, cupY - 86, x, cupY - 126 - index * 8);
+    context.stroke();
+  });
+
+  context.fillStyle = brownie;
+  context.textAlign = "center";
+  context.textBaseline = "top";
+  const isLong = copyText?.classList.contains("is-long");
+  context.font = `800 ${isLong ? 27 : 34}px serif`;
+  const afterCopyY = drawCenteredText(
+    context,
+    copyText?.textContent || "",
+    centerX,
+    sceneTop + 72,
+    appWidth - 56,
+    isLong ? 34 : 40,
+  );
+
+  context.fillStyle = coffee;
+  context.font = "900 12px sans-serif";
+  drawCenteredText(context, copyMeta?.textContent || "", centerX, afterCopyY + 12, appWidth - 56, 17);
+
+  return canvasToPngBlob(canvas);
+}
+
 async function saveScreenAsImage() {
   if (!saveImageButton) {
     return;
@@ -355,58 +524,18 @@ async function saveScreenAsImage() {
     const width = window.innerWidth;
     const height = window.innerHeight;
     const scale = Math.min(window.devicePixelRatio || 1, 2);
-    const bodyClone = document.body.cloneNode(true);
-    bodyClone.querySelector(".reveal-actions")?.remove();
-    bodyClone.querySelectorAll("script").forEach((script) => script.remove());
-
-    const html = `
-      <html xmlns="http://www.w3.org/1999/xhtml">
-        <head>
-          <style>
-            html, body {
-              width: ${width}px;
-              height: ${height}px;
-              margin: 0;
-              overflow: hidden;
-            }
-            ${getDocumentStyleText()}
-          </style>
-        </head>
-        <body>${bodyClone.innerHTML}</body>
-      </html>
-    `;
-    const svg = `
-      <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">
-        <foreignObject width="100%" height="100%">${html}</foreignObject>
-      </svg>
-    `;
-    const image = new Image();
-    const svgUrl = URL.createObjectURL(
-      new Blob([svg], { type: "image/svg+xml;charset=utf-8" }),
-    );
-
-    await new Promise((resolve, reject) => {
-      image.onload = resolve;
-      image.onerror = reject;
-      image.src = svgUrl;
-    });
-
-    const canvas = document.createElement("canvas");
-    canvas.width = Math.round(width * scale);
-    canvas.height = Math.round(height * scale);
-    const context = canvas.getContext("2d");
-    context.scale(scale, scale);
-    context.drawImage(image, 0, 0, width, height);
-    URL.revokeObjectURL(svgUrl);
-
-    const blob = await new Promise((resolve) => {
-      canvas.toBlob(resolve, "image/png", 1);
-    });
+    const blob =
+      (await createDomSnapshotBlob(width, height, scale).catch(() =>
+        createFallbackSnapshotBlob(width, height, scale),
+      )) || (await createFallbackSnapshotBlob(width, height, scale));
 
     if (blob) {
       const date = new Date().toISOString().slice(0, 10);
       downloadBlob(blob, `daily-roast-${date}.png`);
     }
+  } catch (error) {
+    console.error(error);
+    window.alert("이미지를 저장하지 못했어요. 브라우저 권한이나 다운로드 설정을 확인해주세요.");
   } finally {
     saveImageButton.disabled = false;
     saveImageButton.textContent = originalLabel;

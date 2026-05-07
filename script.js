@@ -138,6 +138,70 @@ function getParticle(token) {
   return match ? match[1] : "";
 }
 
+function stripTerminalPunctuation(line) {
+  return line.replace(/[.。!！?？]+$/g, "").trim();
+}
+
+function splitModifierPhrase(phrase) {
+  const modifierPatterns = [
+    /\s+(있는|없는|위한|하는|되는|같은)\s+/,
+    /\s+알 수 있는\s+/,
+  ];
+
+  for (const pattern of modifierPatterns) {
+    const match = pattern.exec(phrase);
+
+    if (!match) {
+      continue;
+    }
+
+    const splitAt = match.index + match[0].length;
+    const firstLine = phrase.slice(0, splitAt).trim();
+    const secondLine = phrase.slice(splitAt).trim();
+
+    if (
+      firstLine.replace(/\s+/g, "").length >= 6 &&
+      secondLine.replace(/\s+/g, "").length >= 5 &&
+      firstLine.length <= 24 &&
+      secondLine.length <= 24
+    ) {
+      return [firstLine, secondLine];
+    }
+  }
+
+  return [];
+}
+
+function getThreeLineBreak(copy) {
+  if (copy.replace(/\s+/g, "").length < 28) {
+    return "";
+  }
+
+  const sentenceParts = copy
+    .split(/[.。!！?？]+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  if (sentenceParts.length >= 3) {
+    const lines = sentenceParts.slice(0, 3).map(stripTerminalPunctuation);
+
+    if (lines.every((line) => line.length <= 28)) {
+      return lines.join("\n");
+    }
+  }
+
+  if (sentenceParts.length === 2) {
+    const firstLine = stripTerminalPunctuation(sentenceParts[0]);
+    const tailLines = splitModifierPhrase(stripTerminalPunctuation(sentenceParts[1]));
+
+    if (firstLine.length <= 28 && tailLines.length === 2) {
+      return [firstLine, ...tailLines].join("\n");
+    }
+  }
+
+  return "";
+}
+
 function getReadableLongBreak(copy) {
   const breakPatterns = [
     /[^\s]+(와|과)\s+함께\s+/,
@@ -233,6 +297,12 @@ function getSemanticLineBreak(copy) {
 
 function formatCopy(copy) {
   const normalized = copy.replace(/[ \t]+/g, " ").trim();
+  const threeLineBreak = getThreeLineBreak(normalized);
+
+  if (threeLineBreak) {
+    return threeLineBreak;
+  }
+
   const longBreak = getReadableLongBreak(normalized);
 
   if (longBreak) {

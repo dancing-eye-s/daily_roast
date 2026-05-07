@@ -64,6 +64,15 @@ let currentId = null;
 let brewingTimer = null;
 let revealTimer = null;
 
+function formatHeaderDate(date = new Date()) {
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+  })
+    .format(date)
+    .toUpperCase();
+}
+
 function pickRandomArchive() {
   if (!archive.length) {
     return null;
@@ -577,7 +586,7 @@ againButton?.addEventListener("click", resetToDrawer);
 saveImageButton?.addEventListener("click", saveScreenAsImage);
 
 if (statusCount) {
-  statusCount.textContent = `${archive.length.toLocaleString("ko-KR")} copies`;
+  statusCount.textContent = formatHeaderDate();
 }
 
 renderCapsules();
